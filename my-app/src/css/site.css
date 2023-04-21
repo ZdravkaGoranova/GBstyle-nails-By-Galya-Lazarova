@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+html {
+    font-family:Verdana,Tahoma, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: url(../../public/img/327127695_739235797389913_5221698279452855098_n.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+
+
+
+html:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 230%;
+    background-color: rgba(0, 0, 0, 0.3); /* тук можете да настройвате степента на затъмнение, като променяте последната стойност (0.5) */
+    z-index: -1;
+  }
+body {
+    position: relative;
+    height: 0vh;
+}
+
+#box {
+    height: auto;   
+    width: auto;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+nav,
+footer {
+    background-color: rgb(160, 153, 153);
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    margin: 0%;
+    height: 60px;
+}
+
+nav a:hover,
+footer a:hover {
+    font-weight: normal;
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.01);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #4d6d72;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #4d6d72;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0 0 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.8em;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em;
+    color: rgb(15, 14, 14);
+  
+}
+
+nav>img {
+    width: 90px;
+    height: 50px;
+    margin-left: 20px;
+    background-image: rgb(235, 220, 220);
+}
+
+nav a:hover {
+    font-weight: normal;
+    background-color: #efbc7d;
+}
+
+nav>a {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.error-box.show {
+    display: block; 
+}
+
+
+.error-box {
+    position: fixed;
+    right: 1.6em;
+    display: block;
+    z-index: 11111;
+    top: 15%;
+    text-align: center;
+    border-radius: 1rem;
+    color: #c71414;
+    font-style: italic;
+    height: auto;
+    width: 420px;
+    box-shadow: 0px 0px 8px 7px #c71414;
+    background-color: white;
+}
+
+.error-box>p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    padding: 22px;
+    height: auto;
+}
+
+.error-box {
+    -moz-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 2s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 2s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+}
+
+@-webkit-keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+

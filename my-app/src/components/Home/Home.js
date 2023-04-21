@@ -1,10 +1,7 @@
 
-
+import '../Home/home.css'
 
 import React, { useContext } from "react";
-
-
-//import Spinner from '../Spinner/Spinner.js';
 
 export default function Home() {
 
@@ -19,7 +16,7 @@ export default function Home() {
             <section id="home-page-content">
                 <h1>Latest Products publication</h1>
 
-          
+        
             </section>
         </>
     )
