@@ -58,7 +58,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="img/324733064_708166377581789_3960976656682610931_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/317328255_545917040878335_2830269458051590600_n.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Поставяне на мигли косъм по косъм, 3D мигли и руски обем</h5>
                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -66,7 +66,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="img/324733064_708166377581789_3960976656682610931_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/330306585_568683681988878_2640478826644498520_n.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Поставяне на кератинови кичури</h5>
                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
