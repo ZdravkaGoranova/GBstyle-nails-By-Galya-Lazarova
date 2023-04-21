@@ -4,12 +4,42 @@ export default function Gallery() {
 
     return (
 
-        <div class="card text-bg-dark">
-        <img src="img/327127695_739235797389913_5221698279452855098_n.jpg" class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+        <div className="col">
+          <div className="card">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
         </div>
       </div>
     )
