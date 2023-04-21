@@ -19,7 +19,7 @@ export default function Home() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className="d-block w-50 h-50" alt="..." />
+                        <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className=" img-fluid w-50 " alt="..." />
                     </div>
                     <div className="carousel-item">
                         <img src="img/viber_image_2023-04-21_13-40-32-793.jpg" className="d-block w-50 h-100" alt="..."/>
