@@ -3,122 +3,323 @@ export default function Gallery() {
 
 
     return (
-<>
-        <div className="row row-cols-1 row-cols-md-2 g-4">
-        <div className="col">
-          <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <>
+            <div className="row row-cols-1 row-cols-md-4 g-4">
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-53-59-167.jpg" className=" card-img-top " alt="..." />
+                      
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-53-59-147.jpg" className="card-img-top" alt="..." />
+                       
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-53-59-135.jpg" className="card-img-top" alt="..." />
+                       
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-53-59-118.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-50-47-584.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-41-26-201.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-41-26-540.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-41-26-696.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-31-49-036.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-31-48-701.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-31-48-531.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_13-46-52-156.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-31-48-351.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-31-46-578.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_17-31-45-476.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_13-46-52-057.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_13-46-51-904.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_13-46-51-833.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/viber_image_2023-04-21_13-40-33-647.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/125834093_2760812547524592_412378573349321012_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/131567037_2785239321748581_4772934520805929498_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/131919862_2785239325081914_8632691426258637715_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/244752003_2998245710447940_1957059218926500327_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/88257393_2545541495718366_5303789705773449216_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/287318034_3173677216238121_3876630277965791557_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/310582387_495027489300624_6157220823981157865_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/330407894_160369856813441_4834590122414320385_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/334257045_1329004151002870_7773532540141198053_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/" className="card-img-top" alt="..." />
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div className="row row-cols-1 row-cols-md-3 g-4 ">
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/292766117_3195120917427084_8093892093062323277_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Грижа за ноктите</h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               </div>
-           </div>
-       </div>
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/287318034_3173677216238121_3876630277965791557_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Грижа за лицето</h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               </div>
-           </div>
-       </div>
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/82513187_2512958278976688_1365401941990965248_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Масажи</h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               </div>
-           </div>
-       </div>
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/324733064_708166377581789_3960976656682610931_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Мокропигментация на  устни </h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-               </div>
-           </div>
-       </div>
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/324734406_712844960409965_7473674768486018502_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Мокропигментация на вежди</h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               </div>
-           </div>
-       </div>
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/324869088_890428739045312_3948096601429774499_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Мокропигментация на очна линия </h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               </div>
-           </div>
-       </div>
-      
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/86336781_2532511233688059_8181171245790789632_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Поставяне на мигли косъм по косъм, 3D мигли и руски обем</h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-               </div>
-           </div>
-       </div>
-      <div className="col col-sm-6">
-           <div className="card">
-               <img src="img/330306585_568683681988878_2640478826644498520_n.jpg" className="card-img-top" alt="..." />
-               <div className="card-body">
-                   <h5 className="card-title">Поставяне на кератинови кичури</h5>
-                   <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               </div>
-           </div>
-       </div>
-   </div>
-</>
+
+
+        </>
 
     )
 }

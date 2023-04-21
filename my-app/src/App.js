@@ -5,6 +5,7 @@ import Home from './components/Home/Home.js';
 import Footer from './components/Footer/Footer.js';
 import Gallery from './components/Gallery/Gallery.js';
 import AboutUs from './components/AboutUs/AboutUs.js';
+import Category from './components/Category/Category.js';
 
 
 
@@ -16,7 +17,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/aboutUs" element={<AboutUs />} />
-     
+      <Route path="/category" element={<Category />} />
       <Route path="/callery" element={<Gallery />} />
       <Route path="/footer" element={<Footer />} />
       </Routes>
