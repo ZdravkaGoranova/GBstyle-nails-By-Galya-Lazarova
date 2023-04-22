@@ -7,6 +7,7 @@ import Gallery from './components/Gallery/Gallery.js';
 import AboutUs from './components/AboutUs/AboutUs.js';
 import Category from './components/Category/Category.js';
 
+import Сourses from './components/Сourses/Сourses.js'
 
 
 
@@ -20,6 +21,8 @@ function App() {
       <Route path="/category" element={<Category />} />
       <Route path="/callery" element={<Gallery />} />
       <Route path="/footer" element={<Footer />} />
+      <Route path="/courses" element={<Сourses />} />
+
       </Routes>
     </>
   );

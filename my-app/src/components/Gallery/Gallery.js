@@ -4,23 +4,24 @@ export default function Gallery() {
 
     return (
         <>
-            <div className="row row-cols-1 row-cols-md-4 g-4">
+            <h2 className="text-center fs-1 fst-italic">Gallery</h2>
+            <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "1px", position: "absolute", left: "1%", }}>
                 <div className="col">
                     <div className="card">
                         <img src="img/viber_image_2023-04-21_17-53-59-167.jpg" className=" card-img-top " alt="..." />
-                      
+
                     </div>
                 </div>
                 <div className="col">
                     <div className="card">
                         <img src="img/viber_image_2023-04-21_17-53-59-147.jpg" className="card-img-top" alt="..." />
-                       
+
                     </div>
                 </div>
                 <div className="col">
                     <div className="card">
                         <img src="img/viber_image_2023-04-21_17-53-59-135.jpg" className="card-img-top" alt="..." />
-                       
+
                     </div>
                 </div>
                 <div className="col">
@@ -117,11 +118,11 @@ export default function Gallery() {
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/88350751_2545541719051677_5780294332737126400_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/88999929_2545541659051683_8259488144777281536_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
@@ -141,179 +142,141 @@ export default function Gallery() {
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/337276576_3798383547055092_1087031176919386039_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/334737437_715747143343717_8855630268751917661_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/334649041_603535694498977_2078054593692335153_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/333783861_218670194035386_4362954860424904681_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/329586219_748028443413331_3570547866346694809_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/329099414_850269522930453_1313118346926338360_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/327600258_592800628849645_2847800275780595919_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/324848494_849308496129505_7340330975611232488_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/319021927_555435339926505_3823119310506270494_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/317077483_541443197992386_6637963016282612875_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/316418471_539600518176654_5401304012869316829_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/316418471_539600518176654_5401304012869316829_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/316417027_540879321382107_9085583769417376712_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/132667889_2790483827890797_4036567474387559662_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/311861713_516803583789681_5056601130513533884_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/314616704_530427249093981_2684922483270447086_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/312336373_509766551160051_1012301783512945217_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/311278289_498787405591299_8519759243280544882_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/310805216_495026865967353_7123549690073792427_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/310412580_495032265966813_47589055251719416_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/310405694_494673282669378_1672905449229510310_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/89838488_2556108037995045_1525895107381821440_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/310304253_495029695967070_3090696896350518520_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/305616954_472448328225207_5175236146980476531_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/292737439_3195120924093750_3793712315993892062_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/292628383_3195120920760417_274688076542608776_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/89098720_2546076082331574_2915722725953634304_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/289213873_3180124018926774_9131488156245035658_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/134044614_2794418597497320_1625148683608710392_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/134602082_2794416747497505_3937253498713513716_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/87693356_2544332835839232_4642279766261497856_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/88137748_2544444042494778_27596603690844160_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/88151777_2544444085828107_4459583986477301760_n.jpg" className="card-img-top" alt="..." />
                     </div>
-                </div><div className="col">
+                </div>
+
+                <div className="col">
                     <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/" className="card-img-top" alt="..." />
+                        <img src="img/87504335_2544436419162207_4367624699400683520_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>

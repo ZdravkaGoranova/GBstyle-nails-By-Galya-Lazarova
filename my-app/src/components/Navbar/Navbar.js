@@ -4,7 +4,8 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
 
             <div className="container-fluid">
-                <img src="img/viber_image_2023-04-21_12-42-48-412.png" className="card-img img-fluid  w-25 h-25" alt="..." />
+                <img src="img/viber_image_2023.png" className="card-img img-fluid  " alt="..." style={{width: "250px",height: "120px"}} 
+    />
 
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +30,14 @@ export default function Navbar() {
                             <a className="nav-link active" href="/prices">Prices</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link active" href="/courses">Сourses</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" href="/beautySalon">Beauty Salon</a>
+                        </li>
+                        <li className="nav-item">
 
-                            <a class="nav-link" href="https://gbstyle.customer.fitsys.co/reservations/confirm?date=2022-02-25T11%3A45%3A00%2B02%3A00&services=82072&site=1">Запази час за посещение </a></li>
+                            <a class="nav-link" href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U">Запази час за посещение </a></li>
 
                     </ul>
 
@@ -41,7 +48,7 @@ export default function Navbar() {
 
                         <a href="https://www.facebook.com/GBStylebyGalyalazarova/photos" className="card-link"><img src="img/facebook-circled.png" width="30" height="30" alt="..." /> </a>
 
-                        <a href="https://gbstyle.customer.fitsys.co/reservations/confirm?date=2022-02-25T11%3A45%3A00%2B02%3A00&services=82072&site=1" className="card-link"><img src="img/event-accepted.png" width="30" height="30" alt="..." /> </a>
+                        <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link"><img src="img/event-accepted.png" width="30" height="30" alt="..." /> </a>
 
 
                         <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+6,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6962689,23.3514059,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85859da8b2fb:0xe34993d764e67e51!8m2!3d42.6962689!4d23.3539808!16s%2Fg%2F11c5mm3nm9#:~:text=https%3A//goo.gl/maps/oPYsbC7jyYgnPNsC9"
