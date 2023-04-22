@@ -5,9 +5,17 @@ export default function Footer() {
 
     return (
         <>
-            <div >
-                <div ><strong>Enigma Spa Salon &copy; 2045 | <a href="privacy-policy.html">Privacy Policy</a> | Design by: <a href="http://www.templatemonster.com">TemplateMonster.com</a></strong></div>
-            </div>
+
+            {/* <div className=" block " data-bs-theme="dark">
+                <footer>
+                    <div class="main aligncenter">
+                        <div class="privacy text-light bg-dark"><strong>GBstyle-nails By Galya Lazarova  | Design by: Zdravka Goranova</strong></div>
+                    </div>
+                </footer>
+            </div> */}
+
+
+      
         </>
     )
 }

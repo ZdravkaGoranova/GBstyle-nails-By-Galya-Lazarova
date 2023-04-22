@@ -11,7 +11,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Грижа за ноктите</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
 
@@ -20,7 +20,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Грижа за лицето</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Професионален грим</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
                 <div className="card" style={{ width: "18rem" }}>
@@ -37,7 +37,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Масажи</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
                 <div className="card" style={{ width: "18rem" }}>
@@ -45,7 +45,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Микропигментация на  устни</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
                 <div className="card" style={{ width: "18rem" }}>
@@ -53,7 +53,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Микропигментация на вежди</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Микропигментация на очна линия</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Поставяне на кератинови кичури</h5>
 
-                        <a href="#" className=" btn btn-light shadow  rounded card-title  ">More</a>
+                        <a href="/callery" className=" btn btn-light shadow  rounded card-title  ">More</a>
                     </div>
                 </div>
 

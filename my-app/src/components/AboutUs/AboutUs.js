@@ -43,7 +43,7 @@ export default function AboutUs() {
                     <blockquote className="blockquote">
                         <p>GBstyle-nails By Galya Lazarova</p>
                     </blockquote>
-                    <figcaption className="blockquote-footer">
+                    <figcaption class="blockquote-footer">
                         Teams
                     </figcaption>
                 </figure>

@@ -4,8 +4,8 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
 
             <div className="container-fluid">
-                <img src="img/viber_image_2023.png" className="card-img img-fluid  " alt="..." style={{width: "250px",height: "120px"}} 
-    />
+                <img src="img/viber_image_2023.png" className="card-img img-fluid  " alt="..." style={{ width: "250px", height: "120px" }}
+                />
 
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +37,12 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item">
 
-                            <a class="nav-link" href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U">Запази час за посещение </a></li>
+                            <a class="nav-link" href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U">💫Запази час за посещение💫 </a></li>
 
                     </ul>
 
                     <span className="navbar-text nav-link active">
-                
+
 
                         <a href="https://instagram.com/gb_style_by_galya_lazarova?igshid=YmMyMTA2M2Y=" className="card-link"><img src="img/instagram-new.png" width="30" height="30" alt="..." /></a>
 

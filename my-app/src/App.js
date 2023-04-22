@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs/AboutUs.js';
 import Category from './components/Category/Category.js';
 
 import Сourses from './components/Сourses/Сourses.js'
+import BeautySalon from './components/BeautySalon/BeautySalon.js';
 
 
 
@@ -20,10 +21,13 @@ function App() {
       <Route path="/aboutUs" element={<AboutUs />} />
       <Route path="/category" element={<Category />} />
       <Route path="/callery" element={<Gallery />} />
-      <Route path="/footer" element={<Footer />} />
+     
       <Route path="/courses" element={<Сourses />} />
+      <Route path="/beautySalon" element={<BeautySalon />} />
 
+      
       </Routes>
+      <Footer />
     </>
   );
 }

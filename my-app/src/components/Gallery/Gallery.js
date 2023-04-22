@@ -29,11 +29,7 @@ export default function Gallery() {
                         <img src="img/viber_image_2023-04-21_17-53-59-118.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
-                <div className="col">
-                    <div className="card">
-                        <img src="img/viber_image_2023-04-21_17-50-47-584.jpg" className="card-img-top" alt="..." />
-                    </div>
-                </div>
+              
                 <div className="col">
                     <div className="card">
                         <img src="img/viber_image_2023-04-21_17-41-26-201.jpg" className="card-img-top" alt="..." />
@@ -54,59 +50,73 @@ export default function Gallery() {
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_17-31-48-701.jpg" className="card-img-top" alt="..." />
+                        <img src="img/329586219_748028443413331_3570547866346694809_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_17-31-48-531.jpg" className="card-img-top" alt="..." />
+                        <img src="img/324869088_890428739045312_3948096601429774499_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-52-156.jpg" className="card-img-top" alt="..." />
+                        <img src="img/213384025_2928693327403179_5396985605087856431_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_17-31-48-351.jpg" className="card-img-top" alt="..." />
+                        <img src="img/216622061_2928693337403178_3708179885538703138_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_17-31-46-578.jpg" className="card-img-top" alt="..." />
+                        <img src="img/324733064_708166377581789_3960976656682610931_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/324734406_712844960409965_7473674768486018502_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/324869088_890428739045312_3948096601429774499_n.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+           
+                
+                
+                <div className="col">
+                    <div className="card">
+                        <img src="img/249629520_3007388406200337_6373698371885233381_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_17-31-45-476.jpg" className="card-img-top" alt="..." />
+                        <img src="img/249913559_3007393206199857_7729028808971016178_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-52-057.jpg" className="card-img-top" alt="..." />
+                        <img src="img/266667226_3039673469638497_5966656959630369978_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className="card-img-top" alt="..." />
+                        <img src="img/266667226_3039673469638497_5966656959630369978_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-51-904.jpg" className="card-img-top" alt="..." />
+                        <img src="img/267652502_3041715696100941_3674620431529916412_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-51-833.jpg" className="card-img-top" alt="..." />
+                        <img src="img/271761716_3062376617368182_4784315931685239746_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-40-33-647.jpg" className="card-img-top" alt="..." />
+                        <img src="img/283678754_3159794020959774_8031186668925195175_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/125834093_2760812547524592_412378573349321012_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/283728384_3159794734293036_5598084634703889013_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/131567037_2785239321748581_4772934520805929498_n.jpg" className="card-img-top" alt="..." />
-                    </div>
-                </div><div className="col">
-                    <div className="card">
-                        <img src="img/131919862_2785239325081914_8632691426258637715_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/286817686_3170679816537861_4396483035173223053_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
@@ -246,7 +256,7 @@ export default function Gallery() {
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/89098720_2546076082331574_2915722725953634304_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/317077483_541443197992386_6637963016282612875_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
@@ -266,17 +276,17 @@ export default function Gallery() {
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/88137748_2544444042494778_27596603690844160_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/310582387_495027489300624_6157220823981157865_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/88151777_2544444085828107_4459583986477301760_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/249629520_3007388406200337_6373698371885233381_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col">
                     <div className="card">
-                        <img src="img/87504335_2544436419162207_4367624699400683520_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/305616954_472448328225207_5175236146980476531_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>
