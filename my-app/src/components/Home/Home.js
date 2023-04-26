@@ -89,7 +89,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="3000">
+                    <div className="carousel-item" data-bs-interval="1000">
                         <div className="card mb-3" >
                             <div className="row g-0">
                                 <div className="col-md-4">

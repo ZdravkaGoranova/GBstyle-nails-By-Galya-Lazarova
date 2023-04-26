@@ -62,7 +62,7 @@ export default function Navbar() {
         // </nav>
         <>
        
-        <nav className="navbar navbar-dark bg-dark "  style={{ width: "2500px", height: "90px" }}>
+        <nav className="navbar navbar-dark bg-dark "  style={{ width: "1500px", height: "90px" }}>
         <a class="navbar-brand" href="#">MENU</a>
             <div className="container-fluid">
                 {/* <img src="img/viber_image_2023.png" className="card-img img-fluid  " alt="..." style={{ width: "250px", height: "120px" }}/>  */}

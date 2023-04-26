@@ -2,21 +2,24 @@
 
 export default function Footer() {
 
-
     return (
-        <>
-
-            {/* <div className=" block " data-bs-theme="dark">
-                <footer>
-                    <div class="main aligncenter">
-                        <div class="privacy text-light bg-dark"><strong>GBstyle-nails By Galya Lazarova  | Design by: Zdravka Goranova</strong></div>
-                    </div>
-                </footer>
-            </div> */}
 
 
-      
-        </>
+
+        <footer style={{
+            position: "fixed",
+            bottom: "0",
+            backgroundColor: "black",
+            color: "white",
+            padding: "10px"
+        }} >
+            <div >
+                <div class="privacy"><strong>GBstyle-nails By Galya Lazarova | Всички права запазени!  | Изработка на уеб сайт: <a href="https://github.com/ZdravkaGoranova">Zdravka Goranova</a></strong> zdr_mladenova90@abv.bg</div>
+
+            </div>
+        </footer>
+
+
     )
 }
 
