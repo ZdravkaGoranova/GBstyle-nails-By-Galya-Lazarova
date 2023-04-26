@@ -24,9 +24,18 @@ export default function Home() {
                                         <div className="card-body">
 
                                             <h5 className="mb-1">GBstyle-nails By Galya Lazarova</h5>
-                                            <p className="card-text">Здравейте скъпи клиенти, каним Ви да се насладите на незабравими релакциращи и разкрасяващи процедури специално за Вас. Очакваме Ви, екипът на GBstyle-nails By Galya Lazarova.</p>
+                                            <p className="card-text">Здравейте скъпи клиенти, каним Ви да се насладите на незабравими релаксиращи и разкрасяващи процедури специално за Вас. Очакваме Ви, екипът на GBstyle-nails By Galya Lazarova.</p>
 
-                                            <p className="card-text"><small className="text-body-secondary"> Може да се свържете с нас на един от следните канали, удобни  за Вас </small></p>
+
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                Салон GBstyle предлага  <strong>професионални курсове</strong> по маникюр, педикюр и ноктопластика.
+
+                                            </div>
+                                       
+
+                                            <div class="alert alert-secondary" role="alert">
+                                                Може да се свържете с нас за цени и услуги на един от следните канали, удобни  за Вас!
+                                            </div>
 
                                             <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+6,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6962689,23.3514059,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85859da8b2fb:0xe34993d764e67e51!8m2!3d42.6962689!4d23.3539808!16s%2Fg%2F11c5mm3nm9#:~:text=https%3A//goo.gl/maps/oPYsbC7jyYgnPNsC9"
                                                 className="card-link"><img src="img/marker.png" width="30" height="30" alt="..." /> </a>

@@ -4,7 +4,7 @@ export default function Сourses() {
 
     return (
         <>
-            <h2 className="text-center fs-1 fst-italic">Сourses by Galya Lazarova</h2>
+            <h2 className="text-center fs-1 fst-italic">Сourses GBstyle-nails By Galya Lazarova</h2>
             <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "1px", position: "absolute", left: "1%", }}>
                 <div className="col">
                     <div className="card">

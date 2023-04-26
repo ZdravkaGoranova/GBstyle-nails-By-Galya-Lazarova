@@ -4,8 +4,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
 
             <div className="container-fluid">
-                <img src="img/viber_image_2023.png" className="card-img img-fluid  " alt="..." style={{ width: "250px", height: "120px" }}
-                />
+                {/* <img src="img/viber_image_2023.png" className="card-img img-fluid  " alt="..." style={{ width: "250px", height: "120px" }}/> */}
 
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,6 +12,7 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <p>GBstyle-nails By Galya LazarovaGBstyle-nails By Galya Lazarova</p>
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
@@ -26,9 +26,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link active" href="/aboutUs">About Us</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link active" href="/prices">Prices</a>
-                        </li>
+
                         <li className="nav-item">
                             <a className="nav-link active" href="/courses">Сourses</a>
                         </li>
