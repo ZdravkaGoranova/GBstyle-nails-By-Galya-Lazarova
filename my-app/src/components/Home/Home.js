@@ -1,6 +1,6 @@
 
+import '../../css/site.css'
 import '../Home/home.css'
-
 import React, { useContext } from "react";
 
 export default function Home() {
@@ -8,7 +8,8 @@ export default function Home() {
 
     return (
         <>
-            <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" style={{ marginTop: "60px", position: "absolute", left: "5%", opacity: " 0.8" }}>
+          
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
 
@@ -31,7 +32,7 @@ export default function Home() {
                                                 Салон GBstyle предлага  <strong>професионални курсове</strong> по маникюр, педикюр и ноктопластика.
 
                                             </div>
-                                       
+
 
                                             <div class="alert alert-secondary" role="alert">
                                                 Може да се свържете с нас за цени и услуги на един от следните канали, удобни  за Вас!
@@ -41,9 +42,10 @@ export default function Home() {
                                                 className="card-link"><img src="img/marker.png" width="30" height="30" alt="..." /> </a>
                                             <a href="https://instagram.com/gb_style_by_galya_lazarova?igshid=YmMyMTA2M2Y=" className="card-link"><img src="img/instagram-new.png" width="40" height="40" alt="instagram-new.png" /></a>
                                             <a href="https://www.facebook.com/GBStylebyGalyalazarova/photos" className="card-link"><img src="img/facebook-circled.png" width="30" height="30" alt="facebook-circled.png" /> </a>
-                                            <a href="https://gbstyle.customer.fitsys.co/reservations/confirm?date=2022-02-25T11%3A45%3A00%2B02%3A00&services=82072&site=1" className="card-link"><img src="img/event-accepted.png" width="30" height="30" alt="gbstyle.customer" /> </a>
-
+                                            <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link"><img src="img/event-accepted.png" width="30" height="30" alt="gbstyle.customer" /> </a>
+                                            <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link"><img src="img/viber_image_2023-04-26_14-54-26-129.jpg" width="200" height="200" alt="..." /> </a>
                                         </div>
+
                                         <ul className="list-group list-group-flush" >
 
                                             <li className="list-group-item">
@@ -56,12 +58,12 @@ export default function Home() {
                                                 <a className="nav-link" href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+6,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6962689,23.3514059,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85859da8b2fb:0xe34993d764e67e51!8m2!3d42.6962689!4d23.3539808!16s%2Fg%2F11c5mm3nm9#:~:text=https%3A//goo.gl/maps/oPYsbC7jyYgnPNsC9">
                                                     <img src="img/marker.png" width="20" height="20" alt="..." /> Кв.Оборище,ул.Козница 6, Sofia, Bulgaria</a></li>
 
-                                        </ul>
 
+
+                                        </ul>
 
                                     </div>
                                 </div>
-
 
                             </div>
                         </div>

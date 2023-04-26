@@ -4,7 +4,7 @@ html {
     font-family:Verdana,Tahoma, sans-serif;
     font-size: 16px;
     box-sizing: border-box;
-    background: url(../../public/img/viber_image_2023-04-26_14-29-27-535.jpg);
+    background: url(../../public/img/viber_image_2023-04-26_14-44-10-878.jpg);
     background-size: cover;
     background-blend-mode: overlay;
 }
@@ -19,7 +19,7 @@ html:before {
     left: 0;
     width: 100%;
     height: 230%;
-    background-color: rgba(0, 0, 0, 0.3); /* тук можете да настройвате степента на затъмнение, като променяте последната стойност (0.5) */
+    /* background-color: rgba(0, 0, 0, 0.3); тук можете да настройвате степента на затъмнение, като променяте последната стойност (0.5) */
     z-index: -1;
   }
 body {

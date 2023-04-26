@@ -9,7 +9,79 @@ export default function AboutUs() {
     return (
         <>
 
-            <div className="card position-absolute " style={{ width: '35em' }} >
+            <div className="row row-cols-1 row-cols-md-5 g-4  " style={{ marginTop: "1px", position: "absolute", left: "10%", }}>
+            <figure className="text-center">
+                    <blockquote className="blockquote">
+                        <p>GBstyle-nails By Galya Lazarova</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Teams
+                    </figcaption>
+                </figure>
+                <div className="card" style={{ width: "15rem" }} >
+                    <img src="img/146229066_2819324435006736_8073264182131207444_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
+                    <div className="card-body">
+                        <h5 className="card-title">Галя Лазарова</h5>
+
+                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                            <li>Управител- маникюрист</li>
+                            <li>Маникюр</li>
+                            <li>Педикюр</li>
+                            <li>Ноктопластика</li>
+                            <li>Курсове</li>
+                        </figcaption>
+
+
+                    </div>
+                </div>
+                <div className="card" style={{ width: "15rem" }} >
+                    <img src="img/147183120_2821120021493844_8013331848463521136_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
+                    <div className="card-body">
+                        <h5 className="card-title">Николета Димитрова</h5>
+
+                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                            <li>Маникюр</li>
+                            <li>Педикюр</li>
+                            <li>Масажи</li>
+                        </figcaption>
+
+
+
+                    </div>
+                </div>
+
+                <div className="card" style={{ width: "15rem" }}>
+                    <img src="img/146983257_2820477931558053_5692738788680944504_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
+                    <div className="card-body">
+                        <h5 className="card-title">Десислава Бекирска</h5>
+                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                            <li>Дневен грим</li>
+                            <li>Вечерен грим</li>
+                            <li>Курсове</li>
+
+                            {/* </>  HYDRA BEATY терапия, диамантено дермаабразио,  BB Glow терапия и микронидлинг */}
+                        </figcaption>
+                        
+                    </div>
+                </div>
+
+                <div className="card" style={{ width: "15rem" }}>
+                    <img src="img/324889858_1849220148773526_2276483844110653565_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
+                    <div className="card-body">
+                        <h5 className="card-title">Анна Карастоянова</h5>
+                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <li>Микропигментация на  вежди</li>
+                                <li>Микропигментация на  устни</li>
+                                <li>Микропигментация на очна линия</li>
+                        </figcaption>
+                        {/* <a href="/callery" className="btn btn-outline-dark">More</a> */}
+                    </div>
+                </div>
+               
+
+            </div>
+
+            {/* <div className="card position-absolute " style={{ width: '35em' }} >
                 <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <p className="mb-1">Welcome</p>
@@ -119,7 +191,7 @@ export default function AboutUs() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
