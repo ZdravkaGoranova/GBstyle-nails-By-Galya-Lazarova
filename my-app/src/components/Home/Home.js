@@ -8,50 +8,49 @@ export default function Home() {
 
     return (
         <>
-    
+            <h2 className="text-center fs-1 fst-italic" style={{ marginTop: "30px"}}>GBstyle-nails By Galya Lazarova</h2>
+            {/* <div className="alert alert-warning alert-dismissible fade show" role="alert">
+                Нашият сайт използва "бисквитки" за по-оптимално пазаруване. <a href="/policy" className="alert-link"> Научи повече </a>
+               
+                <button type="button" className="btn btn-light">Приеми</button>
+                <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div> */}
+            <div className="alert alert-light alert-dismissible fade show" role="alert">
 
-            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                Нашият сайт използва "бисквитки" за по-оптимално пазаруване. <a href="/policy" class="alert-link"> Научи повече..</a>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                Нашият сайт използва "бисквитки" за по-оптимално пазаруване.<a href="/policy" className="alert-link"> Научи повече  </a>
+                <button type="button" className="btn btn-dark">Приеми</button>
+
+                <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
-            <div class="alert alert-light alert-dismissible fade show" role="alert">
 
-                <p> Нашият сайт използва "бисквитки" за по-оптимално пазаруване.<a href="/policy" class="alert-link"> Научи повече..</a></p>
-                <hr></hr>
-               <button type="button" class="btn btn-primary btn-sm">Приеми</button>
-             
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-
-
-            <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" style={{ marginTop: "60px", position: "absolute", left: "5%", opacity: " 0.8" }}>
+            {/* <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" 
+            style={{ marginTop: "60px", position: "absolute", left: "1%", opacity: " 0.85" }}> */}
+                <div id="carouselExampleDark" className="carousel carousel-dark slide" style={{ marginTop: "60px", position: "absolute", left: "1%", opacity: " 0.85" }}>
 
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
 
-
                         <div className="card mb-3" >
                             <div className="row g-0">
                                 <div className="col-md-4">
-                                    <img src="img/viber_image_2023-04-21_13-40-32-793.jpg" className=" img-fluid w-150 " alt="..." />
+                                    <img src="img/viber_image_2023-04-21_13-40-32-793.jpg" className=" img-fluid w-150 " alt="..." style={{opacity: "4" }}/>
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
 
-
                                         <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link mb-1"><img src="img/viber_image_2023-04-26_14-54-26-129.jpg" width="200" height="200" alt="..."
-                                            style={{ marginTop: "-50px", position: "absolute", left: "85%", opacity: " 0.8" }} /> </a>
+                                            style={{ marginTop: "-40px", position: "absolute", left: "85%", opacity: "4" }} /> </a>
                                         <h5 className="mb-1">GBstyle-nails By Galya Lazarova</h5>
                                         <p className="card-text">Здравейте скъпи клиенти, <br /> Каним Ви да се насладите на незабравими релаксиращи <br />
                                             и разкрасяващи процедури специално за Вас.<br /> Очакваме Ви, екипът на GBstyle-nails By Galya Lazarova. </p>
 
-                                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <div className="alert alert-warning alert-dismissible fade show" role="alert">
                                             Салон GBstyle предлага  <strong>професионални курсове</strong> по маникюр, педикюр и ноктопластика.
 
                                         </div>
 
 
-                                        <div class="alert alert-secondary" role="alert">
+                                        <div className="alert alert-secondary" role="alert">
                                             Може да се свържете с нас за цени и услуги на един от следните канали, удобни  за Вас!
                                         </div>
 
@@ -159,54 +158,54 @@ export default function Home() {
 
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
 
-            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-body">
+            <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div className="toast-body">
                     Hello, world! This is a toast message.
-                    <div class="mt-2 pt-2 border-top">
-                        <button type="button" class="btn btn-primary btn-sm">Take action</button>
-                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+                    <div className="mt-2 pt-2 border-top">
+                        <button type="button" className="btn btn-primary btn-sm">Take action</button>
+                        <button type="button" className="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
                     </div>
                 </div>
             </div>
 
 
-            <div aria-live="polite" aria-atomic="true" class="position-relative">
+            <div aria-live="polite" aria-atomic="true" className="position-relative">
                 {/* <!-- Position it: -->
                 <!-- - `.toast-container` for spacing between toasts -->
                 <!-- - `top-0` & `end-0` to position the toasts in the upper right corner -->
                 <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  --> */}
-                <div class="toast-container top-0 end-0 p-3">
+                <div className="toast-container top-0 end-0 p-3">
 
-                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <img src="..." class="rounded me-2" alt="..." />
-                            <strong class="me-auto">Bootstrap</strong>
-                            <small class="text-body-secondary">just now</small>
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div className="toast-header">
+                            <img src="..." className="rounded me-2" alt="..." />
+                            <strong className="me-auto">Bootstrap</strong>
+                            <small className="text-body-secondary">just now</small>
+                            <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                         </div>
-                        <div class="toast-body">
+                        <div className="toast-body">
                             See? Just like this.
                         </div>
                     </div>
 
-                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <img src="..." class="rounded me-2" alt="..." />
-                            <strong class="me-auto">Bootstrap</strong>
-                            <small class="text-body-secondary">2 seconds ago</small>
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div className="toast-header">
+                            <img src="..." className="rounded me-2" alt="..." />
+                            <strong className="me-auto">Bootstrap</strong>
+                            <small className="text-body-secondary">2 seconds ago</small>
+                            <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                         </div>
-                        <div class="toast-body">
+                        <div className="toast-body">
                             Heads up, toasts will stack automatically
                         </div>
                     </div>

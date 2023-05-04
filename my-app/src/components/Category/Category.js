@@ -9,7 +9,7 @@ export default function Category() {
                 <blockquote className="blockquote">
                     <h2 >GBstyle-nails By Galya Lazarova</h2 >
                 </blockquote>
-                <figcaption class="blockquote-footer" style={{ marginTop: "10px" }}>
+                <figcaption className="blockquote-footer" style={{ marginTop: "10px" }}>
                     Category
                 </figcaption>
             </figure>
@@ -20,7 +20,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Професионални курсове</h5>
 
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Маникюр</li>
                             <li>Педикюри</li>
                             <li>Hоктопластика</li>
@@ -34,7 +34,7 @@ export default function Category() {
                     <div className="card-body">
                         <h5 className="card-title">Грижа за ноктите</h5>
 
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Маникюр</li>
                             <li>Педикюри</li>
                             <li>Hоктопластика</li>
@@ -49,7 +49,7 @@ export default function Category() {
                     <img src="img/287318034_3173677216238121_3876630277965791557_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Грижа за лицето</h5>
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> HYDRA BEATY терапия</li>
                             <li>диамантено дермаабразио</li>
                             <li>BB Glow терапия</li>
@@ -65,7 +65,7 @@ export default function Category() {
                     <img src="img/89376124_2554953618110487_1109544576890175488_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Професионален грим</h5>
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Ежедневен</li>
                             <li>Вечерен</li>
                             <li>Официален</li>
@@ -81,7 +81,7 @@ export default function Category() {
                     <img src="img/viber_image_2023-04-26_14-00-56-118.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Масажи</h5>
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Калсически</li>
                             <li>Силов</li>
                             <li>Възстановителен</li>

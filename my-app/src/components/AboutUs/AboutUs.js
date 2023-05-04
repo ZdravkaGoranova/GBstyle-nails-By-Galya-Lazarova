@@ -14,7 +14,7 @@ export default function AboutUs() {
                     <blockquote className="blockquote">
                         <p>GBstyle-nails By Galya Lazarova</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption className="blockquote-footer">
                         Teams
                     </figcaption>
                 </figure>
@@ -23,7 +23,7 @@ export default function AboutUs() {
                     <div className="card-body">
                         <h5 className="card-title">Галя Лазарова</h5>
 
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li>Управител- маникюрист</li>
                             <li>Маникюр</li>
                             <li>Педикюр</li>
@@ -39,7 +39,7 @@ export default function AboutUs() {
                     <div className="card-body">
                         <h5 className="card-title">Николета Димитрова</h5>
 
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li>Маникюр</li>
                             <li>Педикюр</li>
                             <li>Масажи</li>
@@ -54,7 +54,7 @@ export default function AboutUs() {
                     <img src="img/146983257_2820477931558053_5692738788680944504_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Десислава Бекирска</h5>
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
+                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li>Дневен грим</li>
                             <li>Вечерен грим</li>
                             <li>Курсове</li>
@@ -103,7 +103,7 @@ export default function AboutUs() {
                     <blockquote className="blockquote">
                         <p>GBstyle-nails By Galya Lazarova</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption className="blockquote-footer">
                         Teams
                     </figcaption>
                 </figure>

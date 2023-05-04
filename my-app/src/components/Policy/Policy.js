@@ -8,29 +8,29 @@ export default function Policy() {
         <>
 
             <h2 className="text-center fs-1 fst-italic">ПОЛИТИКА ЗА ПОВЕРИТЕЛНОСТ</h2>
-            <hr class="border border-primary border-3 opacity-75" />
+            <hr className="border border-primary border-3 opacity-75" />
 
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div className="accordion" id="accordionExample">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 1. Въведение</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Поверителността на уебсайта ни е много важна за нас и сме ангажирани да я пазим. Тази полица обяснява какво ще направим с личните ви данни. Съгласието за нашата употребата на бисквитки в съответствие с условията на тази полица, когато посетите сайта ни за пръв път, ни позволява да използваме бисквитки всеки път, в който посещавате уебсайта ни.
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 2. Събиране на лични данни</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Следните видове лична информация може да бъдат събирани, съхранявани и използвани:
                             информация за компютъра ви, включваща вашия IP адрес, географско местоположение, тип и версия на браузъра ви и операционна система;
                             информация за посещенията ви и употребата на този уебсайт, включително референтния източник, продължителност на посещение, гледания на страници и уебсайт навигация;
@@ -47,14 +47,14 @@ export default function Policy() {
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 3. Използване на личната ви информация</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Лична информация, подадена до нас чрез уебсайта ни, ще бъде използвана за целите, уточнени в тази полица или в съответните страници на уебсайта. Може да използваме личната ви информация за:
                             администриране на нашите уебсайт и бизнес;
                             персонализиране на уебсайта ни за вас;
@@ -77,14 +77,14 @@ export default function Policy() {
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 4. Оповестяване на лични данни</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Може да оповестим личните ви данни на всеки от нашите служители, застрахователи, професионални съветници, агенти, доставчици или подизпълнители, както е необходимо за целите, изложени в тази полица.
                             Може да оповестим личните ви данни на всеки член от групата на нашите компании (това означава нашите дъщерни дружества, нашата крайна холдингова компания и всичките ѝ дъщерни дружества), както е необходимо за целите, изложени в тази полица.
                             Може да оповестим личната ви информация:
@@ -97,14 +97,14 @@ export default function Policy() {
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 5. Международни трансфери на данни</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Информацията, която сме събрали, може да бъде съхранявана, обработена и прехвърляна между всяка една от държавите, с които работим, за да можем да използваме съответната информация в съответствие с тази полица.
                             Информацията, която сме събрали, може да бъде прехвърлена на следните държави, които нямат права за защита на данните, подобни на тези, които са в сила в Европейската Икономическа Зона: Съединените Американски Щати, Русия, Япония, Китай и Индия.
                             Личната информация, която публикувате или предоставяте в публикации в нашия уебсайт, може да бъде достъпна чрез интернет по целия свят. Ние не можем да предотвратим употребата или злоупотребата на подобна информация от други.
@@ -112,14 +112,14 @@ export default function Policy() {
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 6. Запазване на лична информация</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Този раздел Ж излага нашите политики и процедури за запаметяване на данни, които са разработени да подпомагат да гарантираме, че се съобразяваме с правните си задължения за запаметяване и изтриване на лична информация.
                             Личната информация, която обработваме за каквато и да е цел или цели, няма да бъде съхранявана за по-дълъг период от нужния за съответната цел или цели.
                             Без предразсъдъци към част Ж-2 обикновено изтриваме лични данни, спадащи към категориите, изложени отдолу, във времето или датата, изложена отдолу:
@@ -131,14 +131,14 @@ export default function Policy() {
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 7. Защита на личната ви информация</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Ще предприемем разумни технически и организационни мерки за предотвратяване на загуба, злоупотреба или промяна на личната ви информация.
                             Ще съхраняваме цялата лична информация, която осигурявате на нашите сигурни (защитени от парола и защитна стена) сървъри.
                             Всички електронни парични трансакции, въведени чрез нашия уебсайт, ще бъдат защитени от криптираща технология.
@@ -147,26 +147,26 @@ export default function Policy() {
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 8. Изменения</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             От време на време може да актуализираме тази полица, като публикуваме нова версия в нашия уебсайт. Трябва да проверявате тази страница, за да се уверите, че разбирате всички промени на полицата. Може да ви известим за промените в тази полица, като ви изпратим имейл или чрез личната система за съобщения на уебсайта ни.
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 9. Вашите права</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Можете да ни инструктирате да ви осигурим всяка лична информация, която сме запаметили за вас – осигуряването на подобна информация ще бъде предмет на следните:
                             Снабдяването с подходящи доказателства за вашата самоличност  за тази цел обикновено приемаме копие на паспорта ви, заверено от нотариус, плюс оригинално копие на битова сметка, показваща настоящия ви адрес).
                             Можем да удържим лична информация, която сте поискали, до степента, позволена от закона.
@@ -174,36 +174,36 @@ export default function Policy() {
                             На практика или изрично ще се съгласите предварително за това да използваме личната ви информация за маркетингови цели, или ние ще ви осигурим възможност да се откажете от това да използваме личната ви информация за маркетингови цели.</div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 10. Уебсайтове на трети страни</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Нашият уебсайт включва хибервръзки към уебсайтове на трети страни и подробности за тях. Ние нямаме контрол и не сме отговорни за политиките за поверителност и практиките на трети страни.</div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 11. Актуализиране на информация</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Молим да ни уведомите, ако личната ви информация, която съхраняваме, има нужда да бъде поправена или актуализирана.</div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong> 12. Бисквитки</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
                             Нашият уебсайт използва бисквитки. Бисквитката е файл, който съдържа идентификатор (низ от букви и цифри), който се изпраща от уеб сървър към уеб браузър и се съхранява от браузъра. След това идентификаторът се изпраща обратно към сървъра всеки път, в който браузъра поисква страница от сървъра. Бисквитките могат да бъдат или „настойчиви“ бисквитки, или бисквитки „за сесия“: настойчивата бисквитка ще бъде съхранявана от уеб браузър и ще остане валидна до срока си на годност, освен ако не бъде изтрита от потребителя преди този срок да изтече; от друга страна, бисквитката за сесия ще изтече в края на потребителската сесия, когато уеб браузърът бъде затворен. Обикновено бисквитките не съдържат никаква информация, която може да идентифицира потребителя, но личната ви информация, която ние съхраняваме, може да бъде свързана с информацията, която се съхранява и се получава от бисквитките. Ние използваме само бисквитки за сесия / само настойчиви бисквитки / бисквитки и настойчиви, и за сесия, в нашия уебсайт.
                             Имената на бисквитките, които използваме в уебсайта ни, и целта, поради която те се използват, са изложени отдолу:
                             използваме Google Analytics и Adwords в уебсайта си, за да разпознаваме компютър, когато един потребител посещава уебсайта / следи потребителите, докато те управляват уебсайта / подобрява използваемостта на уебсайта / анализира употребата на уебсайта / администрира уебсайта / предотвратява измама, за да подобри сигурността на уебсайта / персонализира уебсайта за всеки потребител / цели се в рекламите, които може да не са в интерес на конкретните потребители / обяснете вашата цел(и);
