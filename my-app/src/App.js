@@ -9,6 +9,8 @@ import Category from './components/Category/Category.js';
 
 import Сourses from './components/Сourses/Сourses.js'
 import BeautySalon from './components/BeautySalon/BeautySalon.js';
+import Politics from './components/Policy/Policy.js';
+import Policy from './components/Policy/Policy.js';
 
 
 
@@ -24,7 +26,7 @@ function App() {
      
       <Route path="/courses" element={<Сourses />} />
       <Route path="/beautySalon" element={<BeautySalon />} />
-
+      <Route path="/policy" element={<Policy />} />
      
       </Routes>
       <Footer />
