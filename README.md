@@ -1,7 +1,7 @@
 # GBstyle-nails By Galya Lazarova
 
 
-"Wood Woord Bulgaria" is a place, where you can browse some of the most popular Wood working product,tools, furnitures and other product in the world and add some new product that you have created. Authenticated users can like and comment on products in the app. Sellers can use the platform to add, update and delete products from their profile page.
+"GBstyle-nails By Galya Lazarova" is abeauty salon website.The site offers various beauty treatments described in the category .
 
 The  "GBstyle-nails By Galya Lazarova"  application contains the following views: home page, category page, about us page  callery page and beauty salon page.
 
@@ -31,34 +31,26 @@ The front end of the project has been deploy in Firebase:   https://gbstyle-nail
 # Routes views
 
 ## Home Page
-![](/HomePage.jpg)
+![](/Home.jpg)
+![](/Home1.jpg)
 
-## Register Page
-![](/PageRegister.jpg)
+## Salon Page
+![](/Salon.jpg)
 
-## Login Page 
-![](/PageLogin.jpg)
 
-## Profile Page
-![](/ProfilePage.jpg)
+## Gallery Page
+![](/Gallery.jpg)
 
-## Catalog Guest Page
-![](/GuestPageCatalog.jpg)
+## Course  Page 
+![](Course.jpg)
 
-## Catalog Profile Page
-![](/CatalogProfilePage.jpg)
 
-## Create  Page and Validation
-![](CreatePageValidation.jpg)
-![](CreateValidation.jpg)
+## Category Page
+![](/Category.jpg)
 
-## Edit Page
-![](/EditPage.jpg)
-
-## AboutUs
+## AboutUs Page
 ![](/AboutUs.jpg)
 
-## Owner Details Page
-![](/OwnerDetailsPage.jpg)
+
 
 
