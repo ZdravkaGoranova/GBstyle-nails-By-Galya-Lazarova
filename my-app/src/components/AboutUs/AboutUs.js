@@ -18,7 +18,7 @@ export default function AboutUs() {
                         Teams
                     </figcaption>
                 </figure>
-                <div className="card" style={{ width: "15rem" }} >
+                <div className="card" style={{ width: "19rem", marginRight: "20px" }} >
                     <img src="img/146229066_2819324435006736_8073264182131207444_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Галя Лазарова</h5>
@@ -34,7 +34,7 @@ export default function AboutUs() {
 
                     </div>
                 </div>
-                <div className="card" style={{ width: "15rem" }} >
+                <div className="card" style={{ width: "19rem", marginRight: "20px" }} >
                     <img src="img/147183120_2821120021493844_8013331848463521136_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Николета Димитрова</h5>
@@ -50,7 +50,7 @@ export default function AboutUs() {
                     </div>
                 </div>
 
-                <div className="card" style={{ width: "15rem" }}>
+                <div className="card" style={{ width: "19rem", marginRight: "20px" }}>
                     <img src="img/146983257_2820477931558053_5692738788680944504_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Десислава Бекирска</h5>
@@ -65,18 +65,6 @@ export default function AboutUs() {
                     </div>
                 </div>
 
-                <div className="card" style={{ width: "15rem" }}>
-                    <img src="img/324889858_1849220148773526_2276483844110653565_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
-                    <div className="card-body">
-                        <h5 className="card-title">Анна Карастоянова</h5>
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
-                        <li>Микропигментация на  вежди</li>
-                                <li>Микропигментация на  устни</li>
-                                <li>Микропигментация на очна линия</li>
-                        </figcaption>
-                        {/* <a href="/callery" className="btn btn-outline-dark">More</a> */}
-                    </div>
-                </div>
                
 
             </div>
@@ -174,23 +162,7 @@ export default function AboutUs() {
                     </div>
 
                 </div>
-                <div className="card mb-3" style={{ maxWidth: '740px' }}>
-                    <div className="row g-0">
-                        <div className="col-md-4">
-                            <img src="img/324889858_1849220148773526_2276483844110653565_n.jpg" className="img-fluid rounded-start" alt="..." />
-                        </div>
-                        <div className="col-md-8">
-                            <div className="card-body">
-                                <h5 className="card-title">Анна Карастоянова</h5>
-
-                                <li>Микропигментация на  вежди</li>
-                                <li>Микропигментация на  устни</li>
-                                <li>Микропигментация на очна линия</li>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+        
             </div> */}
         </>
     )

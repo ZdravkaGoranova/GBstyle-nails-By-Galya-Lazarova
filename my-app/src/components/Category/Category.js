@@ -4,16 +4,18 @@ export default function Category() {
 
     return (
         <>
-            <div className="row row-cols-1 row-cols-md-5 g-4  " style={{ marginTop: "1px", position: "absolute", left: "10%", }}>
-            <figure className="text-center">
-                    <blockquote className="blockquote">
-                        <p>GBstyle-nails By Galya Lazarova</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
+
+            <figure className="text-center" style={{ marginTop: "30px", position: "absolute", left: "35%" }}>
+                <blockquote className="blockquote">
+                    <h2 >GBstyle-nails By Galya Lazarova</h2 >
+                </blockquote>
+                <figcaption class="blockquote-footer" style={{ marginTop: "10px" }}>
                     Category
-                    </figcaption>
-                </figure>
-                <div className="card" style={{ width: "25rem" }} >
+                </figcaption>
+            </figure>
+
+            <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "90px", position: "absolute", left: "12%" }}>
+                <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                     <img src="img/viber_image_2023-04-21_17-31-48-863.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Професионални курсове</h5>
@@ -27,7 +29,7 @@ export default function Category() {
                         <a href="/callery" className="btn btn-outline-dark">More</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: "25rem" }} >
+                <div className="card" style={{ width: "24rem", marginRight: "20px" }} >
                     <img src="img/viber_image_2023-04-21_17-53-59-167.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Грижа за ноктите</h5>
@@ -39,11 +41,11 @@ export default function Category() {
                         </figcaption>
 
                         <a href="/callery" className="btn btn-outline-dark">More</a>
-                      
+
                     </div>
                 </div>
 
-                <div className="card" style={{ width: "25rem" }}>
+                <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                     <img src="img/287318034_3173677216238121_3876630277965791557_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Грижа за лицето</h5>
@@ -59,7 +61,7 @@ export default function Category() {
                     </div>
                 </div>
 
-                <div className="card" style={{ width: "25rem" }}>
+                <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                     <img src="img/89376124_2554953618110487_1109544576890175488_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Професионален грим</h5>
@@ -75,7 +77,7 @@ export default function Category() {
                         <a href="/callery" className="btn btn-outline-dark">More</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: "25rem" }}>
+                <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                     <img src="img/viber_image_2023-04-26_14-00-56-118.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Масажи</h5>
@@ -88,40 +90,16 @@ export default function Category() {
                         <a href="/callery" className="btn btn-outline-dark">More</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: "25rem" }}>
-                    <img src="img/324733064_708166377581789_3960976656682610931_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
-                    <div className="card-body">
-                        <h5 className="card-title">Микропигментация </h5>
-                        <figcaption class="blockquote-footer" style={{ marginTop: "20px" }}>
-                            <li> Устни</li>
-                            <li>Вежди</li>
-                            <li>Очна линия</li>
-                        </figcaption>
-                        <a href="/callery" className="btn btn-outline-dark">More</a>
-                    </div>
-                </div>
-                <div className="card" style={{ width: "25rem" }}>
+
+                <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                     <img src="img/viber_image_2023-04-26_13-54-21-767.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Ламиниране на вежди и мигли </h5>
-                        
+
                         <a href="/callery" className="btn btn-outline-dark">More</a>
                     </div>
                 </div>
-
-
-                <div className="card" style={{ width: "25rem" }}>
-                    <img src="img/viber_image_2023-04-26_13-56-38-946.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
-                    <div className="card-body">
-                        <h5 className="card-title">Поставяне на кератинови кичури</h5>
-                       
-                        <a href="/callery" className="btn btn-outline-dark">More</a>
-                    </div>
-                </div>
-
             </div>
-
-
         </>
 
     )
