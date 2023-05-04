@@ -10,7 +10,11 @@ html {
 }
 
 
-
+/* .footer {
+    position: absolute;
+    bottom: 200;
+    width: 100%;
+  } */
 
 html:before {
     content: "";
@@ -41,7 +45,7 @@ body {
 }
 
 nav,
-footer {
+.footer {
     background-color: rgb(160, 153, 153);
     width: 100%;
     display: flex;
@@ -53,8 +57,7 @@ footer {
     height: 60px;
 }
 
-nav a:hover,
-footer a:hover {
+nav a:hover{
     font-weight: normal;
     background-color: rgba(255, 255, 255, 0.466);
 }
