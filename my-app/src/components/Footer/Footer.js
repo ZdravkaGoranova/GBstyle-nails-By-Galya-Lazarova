@@ -25,7 +25,7 @@ export default function Footer() {
                         className="card-link"><img src="img/marker.png" width="20" height="20" alt="..." /> </a>
                     <a href="https://instagram.com/gb_style_by_galya_lazarova?igshid=YmMyMTA2M2Y=" className="card-link"><img src="img/instagram-new.png" width="20" height="20" alt="instagram-new.png" /></a>
                     <a href="https://www.facebook.com/GBStylebyGalyalazarova/photos" className="card-link"><img src="img/facebook-circled.png" width="20" height="20" alt="facebook-circled.png" /> </a>
-                    <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link"><img src="img/event-accepted.png" width="20" height="20" alt="gbstyle.customer" /> </a>
+                    <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link"><img src="img/event-accepted.png" width="20" height="20" alt="gbstyle.customer" /> Запази час  </a>
 
 
                     <a href="/" className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Контакти</a>
