@@ -1,0 +1,15 @@
+#categoryLogo {
+    margin:20px  auto;
+    margin-bottom: 2px;
+    width: 1000px;
+    font-family: 'Lily Script One', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color:  rgb(12, 7, 22);
+  
+}
+
+#logo:hover {
+    color:rgb(96, 93, 93);
+}

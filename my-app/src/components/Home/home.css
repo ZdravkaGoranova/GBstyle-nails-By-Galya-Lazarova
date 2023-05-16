@@ -1,3 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+#logo {
+    margin:20px  auto;
+    width: 1000px;
+    font-family: 'Lily Script One', cursive;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(52, 49, 49);
+  
+}
+
+#logo:hover {
+    color: rgb(12, 7, 22);
+}
+
+
 #home-page {
 
     background-position: 100% 100%;
@@ -35,7 +53,7 @@
     color: rgb(19, 12, 5);
     font-family: 'Barlow', sans-serif;
     -webkit-text-stroke: 1px rgb(243, 235, 235);
-  
+
 }
 
 
@@ -82,7 +100,7 @@
     font-size: 13px;
     border-radius: 10px;
     font-weight: 600;
-    text-align:justify;
+    text-align: justify;
     font-family: 'Barlow', sans-serif;
 }
 

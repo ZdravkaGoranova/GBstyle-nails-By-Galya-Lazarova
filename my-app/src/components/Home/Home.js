@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-            <h2 className="text-center fs-1 fst-italic" style={{ marginTop: "30px" }}>GBstyle-nails By Galya Lazarova</h2>
+            <h2 id="logo">GBstyle  - nails By Galya Lazarova</h2>
             <a className="nav-link alert alert-warning alert-dismissible fade show" role="alert"
                 href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U">
                 <img src="img/event-accepted.png" width="30" height="30" alt="..." />
