@@ -5,8 +5,9 @@ export default function Category() {
 
 
     return (
-        <>
-{/* 
+        <section style={{ marginTop: "100px" }}>
+
+            {/* 
             <figure className="text-center" style={{ marginTop: "30px", position: "absolute", left: "35%" }}>
                 <blockquote className="blockquote">
                     <h2 >GBstyle-nails By Galya Lazarova</h2 >
@@ -16,36 +17,36 @@ export default function Category() {
                 </figcaption>
             </figure> */}
 
-            <figure id="categoryLogo" className="text-center" >
-                <blockquote className="blockquote">
-                    <h2  >GBstyle-nails By Galya Lazarova</h2 >
+
+            <figure className="text-center" id='beauty'>
+                <blockquote className="blockquote" style={{ fontSize: "40px" }}>
+                    <p>GBstyle-nails By Galya Lazarova</p>
                 </blockquote>
-                <figcaption className="blockquote-footer" style={{ fontSize:"25px" }}>
-                Category
+                <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
+                    Category
                 </figcaption>
             </figure>
-
 
             <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "0px", position: "absolute", left: "12%" }}>
                 <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                     <img src="img/viber_image_2023-04-21_17-31-48-863.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Професионални курсове</h5>
-                        <a href="/callery" className="btn btn-outline-dark" style={{float: "right",clear: "right"}}>More</a>
+                        <a href="/callery" className="btn btn-outline-dark" style={{ float: "right", clear: "right" }}>More</a>
                         <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Маникюр</li>
                             <li>Педикюри</li>
                             <li>Hоктопластика</li>
                         </figcaption>
 
-                       
+
                     </div>
                 </div>
                 <div className="card" style={{ width: "24rem", marginRight: "20px" }} >
                     <img src="img/viber_image_2023-04-21_17-53-59-167.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Грижа за ноктите</h5>
-                        <a href="/callery" className="btn btn-outline-dark"style={{float: "right",clear: "right"}}>More</a>
+                        <a href="/callery" className="btn btn-outline-dark" style={{ float: "right", clear: "right" }}>More</a>
                         <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Маникюр</li>
                             <li>Педикюри</li>
@@ -59,7 +60,7 @@ export default function Category() {
                     <img src="img/287318034_3173677216238121_3876630277965791557_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Грижа за лицето</h5>
-                        <a href="/callery" className="btn btn-outline-dark"style={{float: "right",clear: "right"}}>More</a>
+                        <a href="/callery" className="btn btn-outline-dark" style={{ float: "right", clear: "right" }}>More</a>
                         <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> HYDRA BEATY терапия</li>
                             <li>диамантено дермаабразио</li>
@@ -68,7 +69,7 @@ export default function Category() {
 
                             {/* </>  HYDRA BEATY терапия, диамантено дермаабразио,  BB Glow терапия и микронидлинг */}
                         </figcaption>
-                       
+
                     </div>
                 </div>
 
@@ -76,7 +77,7 @@ export default function Category() {
                     <img src="img/89376124_2554953618110487_1109544576890175488_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Професионален грим</h5>
-                        <a href="/callery" className="btn btn-outline-dark"style={{float: "right",clear: "right"}}>More</a>
+                        <a href="/callery" className="btn btn-outline-dark" style={{ float: "right", clear: "right" }}>More</a>
                         <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Ежедневен</li>
                             <li>Вечерен</li>
@@ -86,21 +87,21 @@ export default function Category() {
                             <li>Уроци по самогримиране</li>
                             <li>Курсове по грим</li>
                         </figcaption>
-                        
+
                     </div>
                 </div>
                 <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                     <img src="img/viber_image_2023-04-26_14-00-56-118.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Масажи</h5>
-                        <a href="/callery" className="btn btn-outline-dark" style={{float: "right",clear: "right"}}>More</a>
+                        <a href="/callery" className="btn btn-outline-dark" style={{ float: "right", clear: "right" }}>More</a>
                         <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
                             <li> Калсически</li>
                             <li>Силов</li>
                             <li>Възстановителен</li>
                             <li>Антицелулитен масаж с вендузи</li>
                         </figcaption>
-                    
+
                     </div>
                 </div>
 
@@ -108,14 +109,14 @@ export default function Category() {
                     <img src="img/viber_image_2023-04-26_13-54-21-767.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Ламиниране на вежди и мигли </h5>
-                        <a href="/callery" className="btn btn-outline-dark" style={{float: "right",clear: "right"}}>More</a>
+                        <a href="/callery" className="btn btn-outline-dark" style={{ float: "right", clear: "right" }}>More</a>
                         <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
-                          
+
                         </figcaption>
                     </div>
                 </div>
             </div>
-        </>
+        </section>
 
     )
 }

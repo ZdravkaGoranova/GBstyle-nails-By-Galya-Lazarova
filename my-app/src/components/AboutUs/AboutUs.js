@@ -1,5 +1,6 @@
 
-import '../Home/home.css'
+
+import '../AboutUs/aboutus.css'
 
 import React, { useContext } from "react";
 
@@ -7,14 +8,14 @@ export default function AboutUs() {
 
 
     return (
-        <>
+    
 
-            <div className="row row-cols-1 row-cols-md-5 g-4  " style={{ marginTop: "1px", position: "absolute", left: "10%", }}>
-            <figure className="text-center">
-                    <blockquote className="blockquote">
+            <div className="row row-cols-1 row-cols-md-5 g-4 " style={{ marginTop: "80px", position: "absolute", left: "6%", }}>
+                <figure className="text-center" id='aboutUs'>
+                    <blockquote className="blockquote" style={{ fontSize: "35px" }}>
                         <p>GBstyle-nails By Galya Lazarova</p>
                     </blockquote>
-                    <figcaption className="blockquote-footer">
+                    <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
                         Teams
                     </figcaption>
                 </figure>
@@ -61,15 +62,20 @@ export default function AboutUs() {
 
                             {/* </>  HYDRA BEATY терапия, диамантено дермаабразио,  BB Glow терапия и микронидлинг */}
                         </figcaption>
-                        
+
                     </div>
                 </div>
 
-               
+
 
             </div>
 
-            {/* <div className="card position-absolute " style={{ width: '35em' }} >
+          
+       
+    )
+}
+
+  {/* <div className="card position-absolute " style={{ width: '35em' }} >
                 <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <p className="mb-1">Welcome</p>
@@ -164,7 +170,3 @@ export default function AboutUs() {
                 </div>
         
             </div> */}
-        </>
-    )
-}
-

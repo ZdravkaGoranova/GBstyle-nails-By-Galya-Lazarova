@@ -3,8 +3,15 @@ export default function Gallery() {
 
 
     return (
-        <>
-            <h2 className="text-center fs-1 fst-italic">Gallery</h2>
+        <section style={{ marginTop: "100px" }}>
+            <figure className="text-center" id='beauty'>
+                <blockquote className="blockquote" style={{ fontSize: "40px" }}>
+                    <p>GBstyle-nails By Galya Lazarova</p>
+                </blockquote>
+                <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
+                    Gallery
+                </figcaption>
+            </figure>
             <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "1px", position: "absolute", left: "1%", }}>
                 <div className="col">
                     <div className="card">
@@ -29,7 +36,7 @@ export default function Gallery() {
                         <img src="img/viber_image_2023-04-21_17-53-59-118.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
-              
+
                 <div className="col">
                     <div className="card">
                         <img src="img/viber_image_2023-04-21_17-41-26-201.jpg" className="card-img-top" alt="..." />
@@ -79,9 +86,9 @@ export default function Gallery() {
                         <img src="img/324869088_890428739045312_3948096601429774499_n.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
-           
-                
-                
+
+
+
                 <div className="col">
                     <div className="card">
                         <img src="img/249629520_3007388406200337_6373698371885233381_n.jpg" className="card-img-top" alt="..." />
@@ -290,9 +297,7 @@ export default function Gallery() {
                     </div>
                 </div>
             </div>
-
-
-        </>
+        </section>
 
     )
 }

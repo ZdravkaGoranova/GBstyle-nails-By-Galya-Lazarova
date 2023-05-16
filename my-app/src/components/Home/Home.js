@@ -8,7 +8,8 @@ export default function Home() {
 
     return (
         <>
-            <h2 id="logo">GBstyle  - nails By Galya Lazarova</h2>
+        <section style={{ marginTop: "80px", }}>
+        <h2 id="logo">GBstyle - nails By Galya Lazarova</h2>
             <a className="nav-link alert alert-warning alert-dismissible fade show" role="alert"
                 href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U">
                 <img src="img/event-accepted.png" width="30" height="30" alt="..." />
@@ -28,6 +29,8 @@ export default function Home() {
                 {/* <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Приеми</button> */}
                 <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
+        </section>
+            
 
             {/* <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" 
             style={{ marginTop: "60px", position: "absolute", left: "1%", opacity: " 0.85" }}> */}

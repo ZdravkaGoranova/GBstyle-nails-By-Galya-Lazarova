@@ -1,0 +1,30 @@
+#aboutUs {
+    margin:20px  auto;
+    margin-bottom: 2px;
+    width: 300px;
+    font-family: 'Lily Script One', cursive;
+
+
+    text-align: center;
+    color:  rgb(12, 7, 22);
+  
+}
+
+#aboutUs:hover {
+    color:rgb(96, 93, 93);
+}
+#beauty {
+    margin:20px  auto;
+    margin-bottom: 2px;
+    width: 1000px;
+    font-family: 'Lily Script One', cursive;
+
+
+    text-align: center;
+    color:  rgb(12, 7, 22);
+  
+}
+
+#beauty:hover {
+    color:rgb(96, 93, 93);
+}

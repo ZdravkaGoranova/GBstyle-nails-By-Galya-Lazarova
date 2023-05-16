@@ -1,0 +1,15 @@
+
+#logoNavbar {
+  
+    width: 100px;
+    font-family: 'Lily Script One', cursive;
+    font-size: 40px;
+    /* font-weight: bold; */
+    text-align: center;
+    color: white;
+  
+}
+
+#logoNavbar:hover {
+    color: rgb(223, 220, 229);
+}
