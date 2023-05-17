@@ -16,21 +16,21 @@ import Policy from './components/Policy/Policy.js';
 
 function App() {
   return (
-    <>
-      <Navbar/>
+    <div className="app-container">
+      <Navbar />
       <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/aboutUs" element={<AboutUs />} />
-      <Route path="/category" element={<Category />} />
-      <Route path="/callery" element={<Gallery />} />
-     
-      <Route path="/courses" element={<Сourses />} />
-      <Route path="/beautySalon" element={<BeautySalon />} />
-      <Route path="/policy" element={<Policy />} />
-     
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/category" element={<Category />} />
+        <Route path="/callery" element={<Gallery />} />
+
+        <Route path="/courses" element={<Сourses />} />
+        <Route path="/beautySalon" element={<BeautySalon />} />
+        <Route path="/policy" element={<Policy />} />
+
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -8,17 +8,18 @@ export default function AboutUs() {
 
 
     return (
-    
 
-            <div className="row row-cols-1 row-cols-md-5 g-4 " style={{ marginTop: "80px", position: "absolute", left: "6%", }}>
-                <figure className="text-center" id='aboutUs'>
-                    <blockquote className="blockquote" style={{ fontSize: "35px" }}>
-                        <p>GBstyle-nails By Galya Lazarova</p>
-                    </blockquote>
-                    <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
-                        Teams
-                    </figcaption>
-                </figure>
+
+        <div className="row row-cols-1 row-cols-md-5 g-4 " style={{ marginTop: "80px", position: "absolute", left: "6%",paddingBottom: "300px"  }}>
+            <figure className="text-center" id='aboutUs'>
+                <blockquote className="blockquote" style={{ fontSize: "35px" }}>
+                    <p>GBstyle-nails By Galya Lazarova</p>
+                </blockquote>
+                <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
+                    Teams
+                </figcaption>
+            </figure>
+
                 <div className="card" style={{ width: "19rem", marginRight: "20px" }} >
                     <img src="img/146229066_2819324435006736_8073264182131207444_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
@@ -51,7 +52,7 @@ export default function AboutUs() {
                     </div>
                 </div>
 
-                <div className="card" style={{ width: "19rem", marginRight: "20px" }}>
+                <div className="card" style={{ width: "19rem", marginRight: "20px", }} >
                     <img src="img/146983257_2820477931558053_5692738788680944504_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
                     <div className="card-body">
                         <h5 className="card-title">Десислава Бекирска</h5>
@@ -67,15 +68,14 @@ export default function AboutUs() {
                 </div>
 
 
+        </div>
 
-            </div>
 
-          
-       
+
     )
 }
 
-  {/* <div className="card position-absolute " style={{ width: '35em' }} >
+{/* <div className="card position-absolute " style={{ width: '35em' }} >
                 <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <p className="mb-1">Welcome</p>

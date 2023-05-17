@@ -8,17 +8,20 @@ html {
     background: url(../../public/img/viber_image_2023-04-26_14-44-10-878.jpg);
     background-size: cover;
     background-blend-mode: overlay;
+
 }
 
-
+.app-container {
+    padding-bottom: 220px; /* Добавете подходяща стойност на padding-bottom, която осигурява достатъчно пространство за футъра */
+  }
 
 html:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 230%;
+    width: auto;
+    height: auto;
     /* background-color: rgba(0, 0, 0, 0.3); тук можете да настройвате степента на затъмнение, като променяте последната стойност (0.5) */
     z-index: -1;
 }
@@ -26,6 +29,7 @@ html:before {
 body {
     position: relative;
     height: 0vh;
+   
 }
 
 #box {

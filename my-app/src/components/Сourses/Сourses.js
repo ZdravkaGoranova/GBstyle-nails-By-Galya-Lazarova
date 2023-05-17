@@ -3,18 +3,25 @@ export default function Сourses() {
 
 
     return (
-       
-            <section style={{ marginTop: "100px" }}>
-                
-                <figure className="text-center" id='beauty'>
+        <>
+            {/* // <section style={{ marginTop: "100px" }}> */}
+
+                {/* <figure className="text-center" id='beauty'>
                     <blockquote className="blockquote" style={{ fontSize: "40px" }}>
                         <p>GBstyle-nails By Galya Lazarova</p>
                     </blockquote>
                     <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
-                    Сourses
+                        Сourses
                     </figcaption>
-                </figure>
-                <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "1px", position: "absolute", left: "1%", }}>
+                </figure> */}
+                <h2 className="text-center fs-1 fst-italic" style={{ marginTop: "90px", fontFamily: 'Lily Script One', }}>GBstyle-nails By Galya Lazarova</h2>
+                <h6 className="text-center fs-1 fst-italic" style={{ fontSize: "10px", fontFamily: 'Lily Script One', }} >
+                 Courses
+                </h6>
+
+
+
+                <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "1px", position: "absolute", left: "1%", paddingBottom:"300px"}}>
                     <div className="col">
                         <div className="card">
                             <img src="img/311497826_510418641094842_4350884110415316792_n.jpg" className="card-img-top" alt="..." />
@@ -111,9 +118,9 @@ export default function Сourses() {
                         </div>
                     </div>
                 </div>
-            </section>
+           
+        </>
 
-       
 
     )
 }

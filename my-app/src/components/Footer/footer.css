@@ -1,23 +1,28 @@
 article {
-    display: table-cell;
-    width: 90%;
-    padding: 5px 5px;
-    background-color: #101213;
-    border: 1px solid #649b79;
+ display: table-cell;
+ width:-10%;
+ padding: 6px 1px;
+ background-color: #1c1b1b;
 
+ margin-right: 10px; /* Добавете разстояние от 10px между двата елемента */
+ margin-top: 100px; /* Добавете разстояние от 10px от горната страна */
 }
 
 
 footer {
     background-color: rgb(22, 23, 23);
     color: white;
-    padding: 4px;
-    bottom: -19px;
+    padding: 14px;
+    bottom: -10px;
     width: 100%;
     position: fixed;
-    font-size: 12px;
-}
+    font-size: 13px;
+    display: none; /* Скрива футъра по подразбиране */
+  }
+  
+
 /* ul li  {
     list-style:none;
    }
     */
+/* style={{ display: "flex", justifyContent: "left", gap: "25px", padding: "30px" }}  */
