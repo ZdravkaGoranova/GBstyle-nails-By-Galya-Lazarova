@@ -1,3 +1,5 @@
+import '../../css/site.css';
+import '../Home/home.css';
 
 export default function BeautySalon() {
 

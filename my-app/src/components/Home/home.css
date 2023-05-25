@@ -1,19 +1,39 @@
 @import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
 
 #logo {
-    margin:20px  auto;
+    margin: 20px auto;
     width: 1000px;
     font-family: 'Lily Script One', cursive;
     font-size: 56px;
     /* font-weight: bold; */
     text-align: center;
     color: rgb(52, 49, 49);
-  
+
 }
 
+img.align-right {
+    float: right;
+    padding: 0.5em 0 0 0.5em ;
+
+}
+img.align-left {
+    float: left;
+    padding: 0.5em;
+
+}
+p::after{
+    display: block;
+    content: "";
+    clear:right;
+}
 #logo:hover {
     color: rgb(12, 7, 22);
 }
+
+/* img.card-img-top{
+    width: 360px;
+    height: 300px;
+} */
 
 
 /* #home-page {
