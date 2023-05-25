@@ -6,13 +6,16 @@ export default function BeautySalon() {
 
     return (
         <>
+            <h2 className="text-center fs-1 fst-italic" >GBstyle-nails By Galya Lazarova</h2>
+            {/* <h6 className="text-center fs-1 fst-italic"  >
+            <i class="fa fa-thin fa-minus"></i> Beauty Salon
+            </h6> */}
+            <figure className="text-center" id='aboutUs'>
+                <figcaption className="blockquote-footer" style={{ fontSize: "2em" }}>
+                Beauty Salon</figcaption>
+            </figure>
 
-            <h2 className="text-center fs-1 fst-italic" style={{ marginTop: "90px", fontFamily: 'Lily Script One', }}>GBstyle-nails By Galya Lazarova</h2>
-            <h6 className="text-center fs-1 fst-italic" style={{ fontSize: "10px", fontFamily: 'Lily Script One', }} >
-                Beauty Salon
-            </h6>
-
-            <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "1px", position: "absolute", left: "1%",paddingBottom:"300px"}}>
+            <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "0.2px", position: "absolute", left: "1%",paddingBottom:"300px"}}>
 
                 <div className="col">
                     <div className="card">

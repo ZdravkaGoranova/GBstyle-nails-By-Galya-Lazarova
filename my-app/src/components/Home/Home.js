@@ -8,11 +8,7 @@ export default function Home() {
 
     return (
         <>
-
-          
-    
-            <h2 className="text-center fs-1 fst-italic" style={{ marginTop: "90px", fontFamily: 'Lily Script One',opacity: "4.4"  }}>GBstyle-nails By Galya Lazarova</h2>
-         
+            <h1 className="text-center fs-1 fst-italic" style={{ opacity: "4.4" }}>GBstyle - nails By Galya Lazarova</h1>
 
             {/* <div className="alert alert-warning alert-dismissible fade show" role="alert">
                 Нашият сайт използва "бисквитки" за по-оптимално пазаруване. <a href="/policy" className="alert-link"> Научи повече </a>
@@ -20,7 +16,7 @@ export default function Home() {
                 <button type="button" className="btn btn-light">Приеми</button>
                 <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div> */}
-            <div className="alert alert-warning alert-dismissible fade show" style={{ opacity: " 0.85", border: "0.3em solid rgb(43, 42, 42)", textAlign: 'center' }} role="alert">
+            <div className="alert alert-warning alert-dismissible fade show" style={{ opacity: " 0.85", border: "0.1em solid rgb(11, 92, 11) ", textAlign: 'center' }} role="alert">
 
                 <a className="nav-link" href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U">
                     💫<img src="img/event-accepted.png" width="30" height="30" alt="..." /> <b>ЗАПАЗИ ЧАС ЗА ПОСЕЩЕНИЕ<img src="img/event-accepted.png" width="30" height="30" alt="..." />💫</b></a>
@@ -46,11 +42,11 @@ export default function Home() {
                                 {/* <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link mb-1">
                                     <img src="img/viber_image_2023-04-26_14-54-26-129.jpg" width="140" height="120" alt="..."
                                         style={{ position: "absolute", left: "70%", marginTop: "-35px", opacity: "4.4", zIndex: "-1" }} /> </a> */}
-                                <h5 className="mb-1">GBstyle-nails By Galya Lazarova</h5>
+                                <h4 className="mb-1">GBstyle- nails By Galya Lazarova</h4>
                                 <p className="card-text">
                                     <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U" className="card-link mb-1">
                                         <img className="align-right" src="img/viber_image_2023-04-26_14-54-26-129.jpg" width="140" height="120" alt="..."
-                                            style={{ opacity: "4.4", zIndex: "-1" }} /> </a>
+                                            style={{ opacity: "4.4", }} /> </a>
                                     Здравейте скъпи клиенти,  Каним Ви да се насладите на незабравими релаксиращи и разкрасяващи процедури специално за Вас. Очакваме Ви, екипът на GBstyle-nails By Galya Lazarova.
                                 </p>
 
@@ -81,8 +77,9 @@ export default function Home() {
                                     <li className="list-group-item">
                                         <img src="img/new-post.png" width="20" height="20" alt="..." /> lazarova.galq@gmail.com</li>
                                     <li className="list-group-item">
-                                        <a className="nav-link" href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+6,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6962689,23.3514059,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85859da8b2fb:0xe34993d764e67e51!8m2!3d42.6962689!4d23.3539808!16s%2Fg%2F11c5mm3nm9#:~:text=https%3A//goo.gl/maps/oPYsbC7jyYgnPNsC9">
-                                            <img className="align-left" src="img/marker.png" width="20" height="20" alt="..." /> Кв.Оборище,ул.Козница 6, Sofia, Bulgaria</a></li>
+                                        <a className="nav-link"
+                                            href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+6,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6962689,23.3514059,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85859da8b2fb:0xe34993d764e67e51!8m2!3d42.6962689!4d23.3539808!16s%2Fg%2F11c5mm3nm9#:~:text=https%3A//goo.gl/maps/oPYsbC7jyYgnPNsC9">
+                                            <img className="align-left" src="img/marker.png" width="30" height="30" alt="..." /> Кв.Оборище,ул.Козница 6, Sofia, Bulgaria</a></li>
 
                                 </ul>
 
@@ -121,6 +118,7 @@ export default function Home() {
                             <div className="card-body">
 
                                 <a className="nav-link" href="https://gayanails.com/"><h5 className="card-title">Gaya Professional </h5></a>
+
                                 <p className="card-text">GBstyle-nails By Galya Lazarova  работи с професионални високо качествени немски  продукти, които са  100% веган и с формула премахнала 8 неподходящи съставки.</p>
                                 <p><a href="https://gayanails.com/" className="card-link"><img className="align-right" src="img/viber_image_2022-11-02_22-06-15-886.jpg" width="260" height="150" alt="..." /> </a>
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
 
 html {
     font-family: Verdana, Tahoma, sans-serif;
@@ -12,8 +13,9 @@ html {
 }
 
 .app-container {
-    padding-bottom: 220px; /* Добавете подходяща стойност на padding-bottom, която осигурява достатъчно пространство за футъра */
-  }
+    padding-bottom: 220px;
+    /* Добавете подходяща стойност на padding-bottom, която осигурява достатъчно пространство за футъра */
+}
 
 html:before {
     content: "";
@@ -29,7 +31,7 @@ html:before {
 body {
     position: relative;
     height: 0vh;
-   
+
 }
 
 #box {
@@ -44,6 +46,59 @@ body {
     padding: 0;
     box-sizing: inherit;
 }
+
+h1{
+    padding-bottom:0.6em;
+    padding-top: 2em;
+    line-height: 1.1;
+    margin-top: 1em;
+    font-family: 'Lily Script One'
+}
+h2{
+    padding-bottom:-3em;
+    padding-top: 2em;
+    line-height: 1.1;
+    margin-top: 1em;
+    font-family: 'Lily Script One'
+}
+
+
+h3,
+h4,
+h5,
+h6 {
+    padding-bottom: 0.5em;
+    padding-top: -1em;
+    line-height: 1.1;
+    margin-top: 1em;
+    
+}
+h1 {
+    font-size: 3.0em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+    font-family: 'Lily Script One'
+}
+
+
 
 
 
@@ -99,7 +154,7 @@ nav>img {
 
 nav a:hover {
     text-decoration: underline;
- }
+}
 
 nav>a {
     font-family: 'Barlow', sans-serif;

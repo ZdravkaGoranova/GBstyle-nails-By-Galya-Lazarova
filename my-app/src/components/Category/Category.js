@@ -19,11 +19,12 @@ export default function Category() {
             </figure> */}
 
 
-                <h2 className="text-center fs-1 fst-italic" style={{ marginTop: "90px", fontFamily: 'Lily Script One', }}>GBstyle-nails By Galya Lazarova</h2>
-                <h6 className="text-center fs-1 fst-italic" style={{ fontSize: "10px", fontFamily: 'Lily Script One', }} >
-                    Category
-                </h6>
-
+                <h2 className="text-center fs-1 fst-italic" >GBstyle-nails By Galya Lazarova</h2>
+             
+                <figure className="text-center" id='aboutUs'>
+                <figcaption className="blockquote-footer" style={{ fontSize: "2em" }}>
+                Category</figcaption>
+            </figure>
                 <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "0px", position: "absolute", left: "12%",paddingBottom: "300px"  }}>
                     <div className="card" style={{ width: "24rem", marginRight: "20px" }}>
                         <img src="img/viber_image_2023-04-21_17-31-48-863.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
