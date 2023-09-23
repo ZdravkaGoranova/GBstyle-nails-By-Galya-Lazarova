@@ -13,22 +13,75 @@
 
 img.align-right {
     float: right;
-    padding: 0.5em 0 0 0.5em ;
+    padding: 0.5em 0 0 0.5em;
 
 }
+
 img.align-left {
     float: left;
     padding: 0.5em;
 
 }
-p::after{
+
+p::after {
     display: block;
     content: "";
-    clear:right;
+    clear: right;
 }
+
 #logo:hover {
     color: rgb(12, 7, 22);
 }
+
+/* div.col-md-4>img {
+    display: block;
+    width: 30%;
+    height: auto;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+} */
+
+
+
+
+img.zazaza {
+
+    width: 95%;
+    height: auto;
+
+
+
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.9);
+    border-radius: 0.6em;
+
+    transition: opacity 0.3s ease-in-out;
+    padding: 0em;
+    margin-right: 0;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+
+img.zazaza:hover::after {
+  background-color: rgba(0, 0, 0,0);
+}
+
+img.zazaza::before {
+    display: block;
+    content: 'Panda Life';
+    position: absolute;
+    inset: 0;
+    padding: 1em;
+    color: rgb(208, 45, 45);
+    z-index: 1000;
+}
+
+
+
+
 
 /* img.card-img-top{
     width: 360px;

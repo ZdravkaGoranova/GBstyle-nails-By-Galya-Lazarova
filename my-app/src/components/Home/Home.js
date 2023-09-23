@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-            <h1 className="text-center fs-1 fst-italic" style={{ opacity: "4.4" }}>GBstyle - nails By Galya Lazarova</h1>
+            <h1 className="text-center fs-1 fst-italic">GBstyle - nails By Galya Lazarova</h1>
 
             {/* <div className="alert alert-warning alert-dismissible fade show" role="alert">
                 Нашият сайт използва "бисквитки" за по-оптимално пазаруване. <a href="/policy" className="alert-link"> Научи повече </a>
@@ -34,7 +34,8 @@ export default function Home() {
                 <div className="card mb-3" style={{ opacity: " 0.85" }} >
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="img/viber_image_2023-04-21_13-40-32-793.jpg" className=" img-fluid w-150 " alt="..." style={{ opacity: "4.4" }} />
+                            <img src="img/viber_image_2023-04-21_13-40-32-793.jpg" className=" img-fluid w-150 " alt="..."
+                                style={{ opacity: "4.4" }} />
                         </div>
                         <div className="col-md-8" >
                             <div className="card-body" >
