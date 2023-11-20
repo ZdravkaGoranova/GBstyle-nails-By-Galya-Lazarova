@@ -3,12 +3,17 @@ import '../../css/site.css'
 import '../Home/home.css'
 import React, { useContext } from "react";
 
+
+
 export default function Home() {
 
 
     return (
         <>
+
+
             <h1 className="text-center fs-1 fst-italic">GBstyle - nails By Galya Lazarova</h1>
+
 
             {/* <div className="alert alert-warning alert-dismissible fade show" role="alert">
                 Нашият сайт използва "бисквитки" за по-оптимално пазаруване. <a href="/policy" className="alert-link"> Научи повече </a>
@@ -34,7 +39,7 @@ export default function Home() {
                 <div className="card mb-3" style={{ opacity: " 0.85" }} >
                     <div className="row g-0">
                         <div className="col-md-4">
-                        <img src="img/20231120_122720.jpg" className=" img-fluid w-150 " alt="..." 
+                            <img src="img/20231120_122720.jpg" className=" img-fluid w-150 " alt="..."
                                 style={{ opacity: "4.4" }} />
                         </div>
                         <div className="col-md-8" >
@@ -61,7 +66,7 @@ export default function Home() {
                                     Може да се свържете с нас за цени и услуги на един от следните канали, удобни  за Вас!
                                 </div>
 
-                                <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+6,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6962689,23.3514059,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85859da8b2fb:0xe34993d764e67e51!8m2!3d42.6962689!4d23.3539808!16s%2Fg%2F11c5mm3nm9#:~:text=https%3A//goo.gl/maps/oPYsbC7jyYgnPNsC9"
+                                <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9C%D0%B0%D1%80%D0%B8%D1%86%D0%B0%E2%80%9C+11,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6976075,23.3512453,3a,75y,350.11h,90t/data=!3m6!1e1!3m4!1sZAUzkWLSwAdjcrsih4w1aw!2e0!7i16384!8i8192!4m7!3m6!1s0x40aa85846a7effd7:0xbc9ddac52752b2d4!8m2!3d42.6977501!4d23.3511803!10e5!16s%2Fg%2F11bw43hvfd?entry=ttu"
                                     className="card-link"><img src="img/marker.png" width="30" height="30" alt="..." /> </a>
                                 <a href="https://instagram.com/gb_style_by_galya_lazarova?igshid=YmMyMTA2M2Y=" className="card-link"><img src="img/instagram-new.png" width="40" height="40" alt="instagram-new.png" /></a>
                                 <a href="https://www.facebook.com/GBStylebyGalyalazarova/photos" className="card-link"><img src="img/facebook-circled.png" width="30" height="30" alt="facebook-circled.png" /> </a>
@@ -79,8 +84,8 @@ export default function Home() {
                                         <img src="img/new-post.png" width="20" height="20" alt="..." /> lazarova.galq@gmail.com</li>
                                     <li className="list-group-item">
                                         <a className="nav-link"
-                                            href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%BD%D0%B8%D1%86%D0%B0%E2%80%9C+6,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6962689,23.3514059,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85859da8b2fb:0xe34993d764e67e51!8m2!3d42.6962689!4d23.3539808!16s%2Fg%2F11c5mm3nm9#:~:text=https%3A//goo.gl/maps/oPYsbC7jyYgnPNsC9">
-                                            <img className="align-left" src="img/marker.png" width="30" height="30" alt="..." /> Кв.Оборище,ул.Козница 6, Sofia, Bulgaria</a></li>
+                                            href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9C%D0%B0%D1%80%D0%B8%D1%86%D0%B0%E2%80%9C+11,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6976075,23.3512453,3a,75y,350.11h,90t/data=!3m6!1e1!3m4!1sZAUzkWLSwAdjcrsih4w1aw!2e0!7i16384!8i8192!4m7!3m6!1s0x40aa85846a7effd7:0xbc9ddac52752b2d4!8m2!3d42.6977501!4d23.3511803!10e5!16s%2Fg%2F11bw43hvfd?entry=ttu">
+                                            <img className="align-left" src="img/marker.png" width="30" height="30" alt="..." /> Кв.Оборище,ул.Марица 11, Sofia, Bulgaria</a></li>
 
                                 </ul>
 
