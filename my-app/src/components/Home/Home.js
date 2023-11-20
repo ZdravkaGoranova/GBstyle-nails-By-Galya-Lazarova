@@ -34,7 +34,7 @@ export default function Home() {
                 <div className="card mb-3" style={{ opacity: " 0.85" }} >
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="images/20231120_122228.heic" className=" img-fluid w-150 " alt="..."
+                            <img src="img/20231120_122228.heic" className=" img-fluid w-150 " alt="..."
                                 style={{ opacity: "4.4" }} />
                         </div>
                         <div className="col-md-8" >
