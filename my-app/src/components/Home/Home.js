@@ -12,7 +12,7 @@ export default function Home() {
         <>
 
 
-            <h1 className="text-center fs-1 fst-italic">GBstyle - nails By Galya Lazarova</h1>
+            <h1 className="text-center fs-1 fst-italic">Nails By Galya Lazarova</h1>
 
 
             {/* <div className="alert alert-warning alert-dismissible fade show" role="alert">
@@ -85,7 +85,7 @@ export default function Home() {
                                     <li className="list-group-item">
                                         <a className="nav-link"
                                             href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%9C%D0%B0%D1%80%D0%B8%D1%86%D0%B0%E2%80%9C+11,+1505+%D0%9E%D0%B1%D0%BE%D1%80%D0%B8%D1%89%D0%B5,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6976075,23.3512453,3a,75y,350.11h,90t/data=!3m6!1e1!3m4!1sZAUzkWLSwAdjcrsih4w1aw!2e0!7i16384!8i8192!4m7!3m6!1s0x40aa85846a7effd7:0xbc9ddac52752b2d4!8m2!3d42.6977501!4d23.3511803!10e5!16s%2Fg%2F11bw43hvfd?entry=ttu">
-                                            <img className="align-left" src="img/marker.png" width="30" height="30" alt="..." /> Кв.Оборище,ул.Марица 11, Sofia, Bulgaria</a></li>
+                                            <img className="align-left" src="img/marker.png" width="30" height="30" alt="..." /> гр.София кв.Оборище, ул.Марица №11</a></li>
 
                                 </ul>
 
@@ -147,13 +147,18 @@ export default function Home() {
                 <div className="card mb-3" style={{ opacity: " 0.85" }} >
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="img/2.png" className=" img-fluid w-150 " alt="..." />
+                            <img src="img/1.png" className=" img-fluid w-150 " alt="..." />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">Здравейте дами нещо ново за Вас </h5>
-                                <p className="card-text">💫⭐️- 40%  DISCOUNT на всички гел лакове✨</p>
+                                <p className="card-text">💫- 40%  DISCOUNT на всички гел лакове ⭐️с  промо код: GAYA40✨</p>
 
+
+                                <p className="card-text">  До края на месец Ноември имате възможност да поръчате продукти с отстъпка като използвате промо код: GAYA40 ✨
+                                
+                                </p>
+                                <a href="https://gayanails.com/" className="card-link">🌸 https://gayanails.com 🌸 </a>
                                 <a className="nav-link" href="https://gayanails.com/"><p className="card-title"><small className="text-body-secondary">Висококачествени продукти за маникюр, педикюр и ноктопластика</small> </p></a>
                                 <a href="https://gayanails.com/" className="card-link"><img className="align-left" src="img/viber_image_2022-11-02_22-06-15-886.jpg" width="260" height="150" alt="..." /> </a>
 
@@ -168,11 +173,13 @@ export default function Home() {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">Здравейте дами нещо ново за Вас </h5>
-                                <p className="card-text"> 🌸ПРОМО ЦЕНА🌸с промо код: GAYA20 ✨
+                                <h5 className="card-title">GAYA– в хармония с природата </h5>
+                                <p className="card-text"> Създадени от маникюристи за маникюристи, в продуктите на Gaya Professional са вложени много старание и любов към професията. Наситени цветове, дълготраен блясък, безкомпромисно качество в хармония с природата и човека, Гайа цели да вдъхне страст във маникюрното изживяване.
+                                </p>
+                                <p>
+                                    Безопасността е в основата – нашите лакове за нокти са направени според най-строгите европейски разпоредби и не са тествани върху животни. Подбрани ефективни съставки за лак за нокти, които отговарят на най-високите стандарти и най-важното, които ни позволяват постоянно да доставяме безупречeн цвят, изключително устойчив и формулa за качество, които очаквате.
                                 </p>
 
-                                <p className="card-text">  До края на месец Декември имате възможност да поръчате продукти с отстъпка като използвате промо код: GAYA20 ✨</p>
                                 <p>
                                     <a href="https://gayanails.com/" className="card-link">🌸 https://gayanails.com 🌸 </a>
                                     <a className="nav-link" href="https://gayanails.com/"><p className="card-title"><small className="text-body-secondary">Висококачествени продукти за маникюр, педикюр и ноктопластика</small> </p></a>
