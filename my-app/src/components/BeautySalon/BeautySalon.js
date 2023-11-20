@@ -19,37 +19,164 @@ export default function BeautySalon() {
 
                 <div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-52-156.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122228.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-52-057.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122251.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-51-941.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122410.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-51-904.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122554.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-46-51-833.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122650.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/viber_image_2023-04-21_13-40-33-647.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122720.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/125834093_2760812547524592_412378573349321012_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122809.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div><div className="col">
                     <div className="card">
-                        <img src="img/131567037_2785239321748581_4772934520805929498_n.jpg" className="card-img-top" alt="..." />
+                        <img src="img/20231120_122818.jpg" className="card-img-top" alt="..." />
                     </div>
                 </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_123033.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_123250.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_123341.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_123401.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_123414.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_123557.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_124451.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_124521.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_124614.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_124720.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_124737.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_124806.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_124826.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125046.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125213.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125238.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125619.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+
+
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125645.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div><div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125711.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125818.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+
+
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_125939.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_130204.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_130450.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+
+               
+                <div className="col">
+                    <div className="card">
+                        <img src="img/20231120_130642.jpg" className="card-img-top" alt="..." />
+                    </div>
+                </div>
+                
             </div>
             {/* </section> */}
 
