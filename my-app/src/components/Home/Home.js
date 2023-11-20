@@ -34,7 +34,7 @@ export default function Home() {
                 <div className="card mb-3" style={{ opacity: " 0.85" }} >
                     <div className="row g-0">
                         <div className="col-md-4">
-                        <img src="img/viber_image_2023-04-21_13-40-32-793.jpg" className=" img-fluid w-150 " alt="..." 
+                        <img src="img/20231120_122720.jpg" className=" img-fluid w-150 " alt="..." 
                                 style={{ opacity: "4.4" }} />
                         </div>
                         <div className="col-md-8" >
@@ -113,7 +113,7 @@ export default function Home() {
                 <div className="card mb-3" style={{ opacity: " 0.85" }} >
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="img/viber_image_2023-04-21_17-41-26-696.jpg" className=" img-fluid w-150 " alt="..." />
+                            <img src="img/3.png" className=" img-fluid w-150 " alt="..." />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
@@ -142,12 +142,12 @@ export default function Home() {
                 <div className="card mb-3" style={{ opacity: " 0.85" }} >
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="img/339562163_613564143613976_5614407385547463861_n.jpg" className=" img-fluid w-150 " alt="..." />
+                            <img src="img/2.png" className=" img-fluid w-150 " alt="..." />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">Здравейте дами нещо ново за Вас </h5>
-                                <p className="card-text">💫⭐️АРОМА СВЕЩИ GAYA ✨в два прекрасни аромата.</p>
+                                <p className="card-text">💫⭐️- 40%  DISCOUNT на всички гел лакове✨</p>
 
                                 <a className="nav-link" href="https://gayanails.com/"><p className="card-title"><small className="text-body-secondary">Висококачествени продукти за маникюр, педикюр и ноктопластика</small> </p></a>
                                 <a href="https://gayanails.com/" className="card-link"><img className="align-left" src="img/viber_image_2022-11-02_22-06-15-886.jpg" width="260" height="150" alt="..." /> </a>
@@ -167,7 +167,7 @@ export default function Home() {
                                 <p className="card-text"> 🌸ПРОМО ЦЕНА🌸с промо код: GAYA20 ✨
                                 </p>
 
-                                <p className="card-text">  До края на месец Aприл имате възможност да поръчате продукти с отстъпка като използвате промо код: GAYA20 ✨</p>
+                                <p className="card-text">  До края на месец Декември имате възможност да поръчате продукти с отстъпка като използвате промо код: GAYA20 ✨</p>
                                 <p>
                                     <a href="https://gayanails.com/" className="card-link">🌸 https://gayanails.com 🌸 </a>
                                     <a className="nav-link" href="https://gayanails.com/"><p className="card-title"><small className="text-body-secondary">Висококачествени продукти за маникюр, педикюр и ноктопластика</small> </p></a>
