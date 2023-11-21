@@ -19,7 +19,7 @@ export default function Category() {
             </figure> */}
 
 
-                <h2 className="text-center fs-1 fst-italic" >GBstyle-nails By Galya Lazarova</h2>
+                <h2 className="text-center fs-1 fst-italic" >Nails By Galya Lazarova</h2>
              
                 <figure className="text-center" id='aboutUs'>
                 <figcaption className="blockquote-footer" style={{ fontSize: "2em" }}>

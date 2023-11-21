@@ -7,7 +7,7 @@ export default function BeautySalon() {
     return (
         <>
 
-            <h2 className="text-center fs-1 fst-italic" >GBstyle-nails By Galya Lazarova</h2>
+            <h2 className="text-center fs-1 fst-italic" >Nails By Galya Lazarova</h2>
             {/* <h6 className="text-center fs-1 fst-italic"  >
             <i class="fa fa-thin fa-minus"></i> Beauty Salon
             </h6> */}

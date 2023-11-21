@@ -14,6 +14,49 @@ export default function Home() {
 
             <h1 className="text-center fs-1 fst-italic">Nails By Galya Lazarova</h1>
 
+            {/* <img src="img/20231120_122720.jpg" class="d-block w-100" alt="..." />
+                        <img src="img/20231120_122251.jpg.jpg" class="d-block w-100" alt="..." />
+                        <img src="img/20231120_122809.jpg" class="d-block w-100" alt="..." /> */}
+
+
+            {/* <div id="carouselExampleDark" class="carousel carousel-dark slide" >
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/20231120_122720.jpg" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/20231120_122251.jpg" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/20231120_122809.jpg" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> */}
 
             {/* <div className="alert alert-warning alert-dismissible fade show" role="alert">
                 Нашият сайт използва "бисквитки" за по-оптимално пазаруване. <a href="/policy" className="alert-link"> Научи повече </a>
@@ -156,7 +199,7 @@ export default function Home() {
 
 
                                 <p className="card-text">  До края на месец Ноември имате възможност да поръчате продукти с отстъпка като използвате промо код: GAYA40 ✨
-                                
+
                                 </p>
                                 <a href="https://gayanails.com/" className="card-link">🌸 https://gayanails.com 🌸 </a>
                                 <a className="nav-link" href="https://gayanails.com/"><p className="card-title"><small className="text-body-secondary">Висококачествени продукти за маникюр, педикюр и ноктопластика</small> </p></a>
