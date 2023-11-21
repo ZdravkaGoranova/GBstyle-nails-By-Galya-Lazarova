@@ -8,9 +8,10 @@ html {
     box-sizing: border-box;
     /* background: url(../../public/img/viber_image_2023-04-26_14-44-10-878.jpg); */
     /* background: url(../../public/img/viber_изображение_2023-11-20_16-51-19-263.jpg); */
-    background: url(../../public/img/viber_изображение_2023-11-20_16-51-19-703.jpg); 
+    background: url(../../public/img/viber_изображение_2023-11-20_16-51-19-263.jpg); 
     background-size: cover;
     background-blend-mode: overlay;
+    
 
 }
 

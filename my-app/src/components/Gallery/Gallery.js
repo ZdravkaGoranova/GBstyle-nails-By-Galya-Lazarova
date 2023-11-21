@@ -13,7 +13,7 @@ export default function Gallery() {
         //         </figcaption>
         //     </figure>
         <>
-           <h2 className="text-center fs-1 fst-italic" >Nails By Galya Lazarova</h2>
+           <h2 className="text-center fs-1 fst-italic" >Beauty Salon -by Galya Lazarova</h2>
             {/* <h6 className="text-center fs-1 fst-italic"  ><i class="fa fa-thin fa-minus"></i>Gallery</h6>
              */}
             <figure className="text-center" id='aboutUs'>
