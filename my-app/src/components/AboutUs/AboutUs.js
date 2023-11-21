@@ -8,70 +8,91 @@ export default function AboutUs() {
 
 
     return (
+        <>
 
+            <div className="row row-cols-1 row-cols-md-5 g-4 " style={{ marginTop: "80px", position: "absolute", left: "6%", paddingBottom: "300px" }}>
+                <figure className="text-center" id='aboutUs'>
+                    <blockquote className="blockquote" style={{ fontSize: "35px" }}>
+                        <p>Nails By Galya Lazarova</p>
+                    </blockquote>
+                    <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
+                        Teams
+                    </figcaption>
+                </figure>
+                <div class="col-lg-3 col-md-6">
+                        <div class="team-box text-center bg-white mt-4">
+                            <div class="team-img">
+                                <img src="img/146229066_2819324435006736_8073264182131207444_n.jpg" alt="" class="img-fluid d-block rounded" />
+                                <div class="team-name">
+                                    <h5 class="text-white f-18 font-weight-light mb-0">Галя Лазарова</h5>
+                                </div>
+                            </div>
+                            <div class="team-content text-center p-3">
+                                <div class="">
+                                    <p class="f-17 mb-0"><a href="#" class="text-dark">Управител- маникюрист</a></p>
+                                    <p class="text-muted f-14 mb-0"> <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
+                                        <li>Ноктопластика</li>
+                                        <li>Маникюр</li>
+                                        <li>Педикюр</li>
 
-        <div className="row row-cols-1 row-cols-md-5 g-4 " style={{ marginTop: "80px", position: "absolute", left: "6%",paddingBottom: "300px"  }}>
-            <figure className="text-center" id='aboutUs'>
-                <blockquote className="blockquote" style={{ fontSize: "35px" }}>
-                    <p>GBstyle-nails By Galya Lazarova</p>
-                </blockquote>
-                <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
-                    Teams
-                </figcaption>
-            </figure>
+                                        <li>Курсове</li>
+                                    </figcaption></p>
 
-                <div className="card" style={{ width: "19rem", marginRight: "20px" }} >
-                    <img src="img/146229066_2819324435006736_8073264182131207444_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
-                    <div className="card-body">
-                        <h5 className="card-title">Галя Лазарова</h5>
+                                </div>
+                            </div>
 
-                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
-                            <li>Управител- маникюрист</li>
-                            <li>Маникюр</li>
-                            <li>Педикюр</li>
-                            <li>Ноктопластика</li>
-                            <li>Курсове</li>
-                        </figcaption>
-
-
+                        </div>
                     </div>
-                </div>
-                <div className="card" style={{ width: "19rem", marginRight: "20px" }} >
-                    <img src="img/147183120_2821120021493844_8013331848463521136_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
-                    <div className="card-body">
-                        <h5 className="card-title">Николета Димитрова</h5>
 
-                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
-                            <li>Маникюр</li>
-                            <li>Педикюр</li>
-                            <li>Масажи</li>
-                        </figcaption>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-box text-center bg-white mt-4">
+                            <div class="team-img">
+                                <img src="img/147183120_2821120021493844_8013331848463521136_n.jpg" alt="" class="img-fluid d-block rounded" />
+                                <div class="team-name">
+                                    <h5 class="text-white f-18 font-weight-light mb-0">Николета Димитрова</h5>
+                                </div>
+                            </div>
+                            <div class="team-content text-center p-3">
+                                <div class="">
+                                    <p class="f-17 mb-0"><a href="#" class="text-dark">Маникюрист</a></p>
+                                    <p class="text-muted f-14 mb-0"><figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
+                                        <li>Маникюр</li>
+                                        <li>Педикюр</li>
+                                        <li>Масажи</li>
+                                    </figcaption></p>
 
 
-
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div className="card" style={{ width: "19rem", marginRight: "20px", }} >
-                    <img src="img/146983257_2820477931558053_5692738788680944504_n.jpg" className="card-img-top" alt="..." style={{ marginTop: "20px" }} />
-                    <div className="card-body">
-                        <h5 className="card-title">Десислава Бекирска</h5>
-                        <figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
-                            <li>Дневен грим</li>
-                            <li>Вечерен грим</li>
-                            <li>Курсове</li>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-box text-center bg-white mt-4">
+                            <div class="team-img">
+                                <img src="img/146983257_2820477931558053_5692738788680944504_n.jpg" alt="" class="img-fluid d-block rounded" />
+                                <div class="team-name">
+                                    <h5 class="text-white f-18 font-weight-light mb-0">Десислава Бекирска</h5>
+                                </div>
+                            </div>
+                            <div class="team-content text-center p-3">
+                                <div class="">
+                                    <p class="f-17 mb-0"><a href="#" class="text-dark">Гримьор</a></p>
+                                    <p class="text-muted f-14 mb-0"><figcaption className="blockquote-footer" style={{ marginTop: "20px" }}>
+                                        <li>Дневен грим</li>
+                                        <li>Вечерен грим</li>
+                                        <li>Курсове</li>
+                                    </figcaption></p>
 
-                            {/* </>  HYDRA BEATY терапия, диамантено дермаабразио,  BB Glow терапия и микронидлинг */}
-                        </figcaption>
 
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-
-        </div>
-
-
-
+   
+              
+            </div>
+        </>
     )
 }
 
