@@ -2,10 +2,10 @@ article {
  display: table-cell;
  width:-10%;
  padding: 6px 1px;
- background-color: #1c1b1b;
-
- margin-right: 10px; /* Добавете разстояние от 10px между двата елемента */
- margin-top: 100px; /* Добавете разстояние от 10px от горната страна */
+ /* background-color: #1c1b1b; */
+ background-color: #e7d6d6;
+ margin-right: 10px; 
+ margin-top: 100px; 
 }
 
 
@@ -17,7 +17,8 @@ footer {
     width: 100%;
     position: fixed;
     font-size: 13px;
-    display: none; /* Скрива футъра по подразбиране */
+    display: none; 
+    /* Скрива футъра по подразбиране */
   }
   
 
