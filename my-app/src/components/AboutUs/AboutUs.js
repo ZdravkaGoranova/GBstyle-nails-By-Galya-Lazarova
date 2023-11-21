@@ -13,7 +13,7 @@ export default function AboutUs() {
             <div className="row row-cols-1 row-cols-md-5 g-4 " style={{ marginTop: "80px", position: "absolute", left: "6%", paddingBottom: "300px" }}>
                 <figure className="text-center" id='aboutUs'>
                     <blockquote className="blockquote" style={{ fontSize: "35px" }}>
-                        <p>Nails By Galya Lazarova</p>
+                        <p>Beauty Salon -by Galya Lazarova</p>
                     </blockquote>
                     <figcaption className="blockquote-footer" style={{ fontSize: "25px" }}>
                         Teams
