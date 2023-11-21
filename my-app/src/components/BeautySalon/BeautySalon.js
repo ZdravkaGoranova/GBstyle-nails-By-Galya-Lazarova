@@ -1,6 +1,6 @@
 import '../../css/site.css';
 import '../Home/home.css';
-
+import "../BeautySalon/BeautySalon.css"
 export default function BeautySalon() {
 
 
@@ -15,6 +15,66 @@ export default function BeautySalon() {
                 <figcaption className="blockquote-footer" style={{ fontSize: "2em" }}>
                     Beauty Salon</figcaption>
             </figure>
+
+            {/* <div class="container bootstrap snippets bootdeys">
+                <div class="col-md-4">
+                    <div class="card card-background">
+                        <div class="image"
+                            style={{ backgroundImage: 'url(img/20231120_122228.jpg)', backgroundSize: ' cover', backgroundPosition: ' 50% 50%;' }}>
+
+                            <div class="filter"></div>
+                        </div>
+                        <div class="content">
+                            <h5 class="price">user profile description
+                                <a href="#" class="pull-right">
+                                    <i class="fa fa-heart"></i>3.3.5
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="footer">
+                            <div class="author">
+                                <a href="#">
+                                    <span>Dey-Dey</span>
+                                </a>
+                            </div>
+                            <div class="stats pull-right">
+                                <i class="fa fa-eye"></i>  253
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-background">
+                        <div class="image"
+                            style={{ backgroundImage: 'url(https://www.bootdey.com/image/266x200/87CEEB)', backgroundSize: ' cover', backgroundPosition: ' 50% 50%;' }}>
+
+                            <div class="filter"></div>
+                        </div>
+                        <div class="content">
+                            <h5 class="price">user profile description
+                                <a href="#" class="pull-right">
+                                    <i class="fa fa-heart"></i>3.3.5
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="footer">
+                            <div class="author">
+                                <a href="#">
+                                    <span>Dey-Dey</span>
+                                </a>
+                            </div>
+                            <div class="stats pull-right">
+                                <i class="fa fa-eye"></i>  253
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div> */}
+
 
             <div className="row row-cols-1 row-cols-md-4 g-4  " style={{ marginTop: "0.2px", position: "absolute", left: "1%", paddingBottom: "300px" }}>
 
