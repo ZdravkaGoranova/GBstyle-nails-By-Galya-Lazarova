@@ -18,7 +18,7 @@ export default function Category() {
                     <div className="col-md-6 mb-4"> */}
               
                 <ul class="row row-cols-1 row-cols-md-6 g-8 hash-list  pad-30-all align-center text-sm">
-                    <li >
+                    <li lass="card" >
                         <img src="img/viber_image_logo.jpg" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]" />
 
                         <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Професионални курсове</h5>

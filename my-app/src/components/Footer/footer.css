@@ -2,8 +2,8 @@ article {
  display: table-cell;
  width:-10%;
  padding: 6px 1px;
- /* background-color: #1c1b1b; */
- background-color: #e7d6d6;
+ background-color: #1c1b1b;
+ /* background-color: #e7d6d6; */
  margin-right: 10px; 
  margin-top: 100px; 
 }
@@ -25,5 +25,5 @@ footer {
 /* ul li  {
     list-style:none;
    }
-    */
+    
 /* style={{ display: "flex", justifyContent: "left", gap: "25px", padding: "30px" }}  */
