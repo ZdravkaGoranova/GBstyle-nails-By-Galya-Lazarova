@@ -1,17 +1,17 @@
 /* Стилове за затъмняване по подразбиране */
-.card::before {
+/* .card::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Прозрачен черен цвят за затъмняване */
-    opacity: 0; /* Начална прозрачност - не затъмнявайте */
-    transition: opacity 0.3s ease; /* Плавен ефект на промяна на прозрачността */
-}
+    background: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+} */
 
 /* Стилове при ховър (затъмняване) */
-.card:hover::before {
-    opacity: 1; /* Затъмняване при ховър */
-}
+/* .card:hover::before {
+    opacity: 1; 
+} */

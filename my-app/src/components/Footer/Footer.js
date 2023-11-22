@@ -85,11 +85,13 @@ export default function Footer() {
                                                 <img src="img/instagram-new.png" width="20" height="20" alt="instagram-new.png" style={{ marginRight: "10px" }} /></a> <a href="https://www.facebook.com/GBStylebyGalyalazarova/photos"
                                                     className="card-link"><img src="img/facebook-circled.png" width="20" height="20" alt="facebook-circled.png" style={{ marginRight: "10px" }} /> </a>
                                             <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U"
-                                                className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><img src="img/event-accepted.png" width="20" height="20" alt="gbstyle.customer" /> Запази час  </a>
+                                                className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><img src="img/event-accepted.png" width="20" height="20" alt="gbstyle.customer" /> </a>
 
                                         </a></li>
-                                        <li><a href="https://github.com/ZdravkaGoranova"
-                                            className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Web design by Zdravka Goranova</a></li>
+                                        <li><a href="/contacts"
+                                            className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contacts - Контакти</a>
+                                         
+                                            </li>
                                     </ul>
                                 </div>
                             </div>

@@ -11,6 +11,7 @@ import Сourses from './components/Сourses/Сourses.js'
 import BeautySalon from './components/BeautySalon/BeautySalon.js';
 import Politics from './components/Policy/Policy.js';
 import Policy from './components/Policy/Policy.js';
+import Contacts from './components/Contacts/Contacts.js';
 
 
 
@@ -23,7 +24,7 @@ function App() {
         <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/category" element={<Category />} />
         <Route path="/callery" element={<Gallery />} />
-
+        <Route path="/contacts" element={< Contacts/>} />
         <Route path="/courses" element={<Сourses />} />
         <Route path="/beautySalon" element={<BeautySalon />} />
         <Route path="/policy" element={<Policy />} />

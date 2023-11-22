@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div className="offcanvas-header">
               <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU<figcaption className="blockquote-footer" style={{ fontSize:"15px", marginBlockStart:"3px" }}>
-              GBstyle  - nails By Galya Lazarova
+              Beauty Salon -by Galya Lazarova
                       </figcaption></h5>
               
             
@@ -38,24 +38,24 @@ export default function Navbar() {
                         <a className="nav-link active" aria-current="page" href="/">Home</a>
                      </li>
                            <li className="nav-item">
-                        <a className="nav-link active" href="/callery">Gallery</a>
+                        <a className="nav-link active" href="/callery">Gallery - Галерия</a>
                     </li>
                            <li className="nav-item">
-                        <a className="nav-link active" href="/category">Category</a>
-                           </li>
-                   <li className="nav-item">
-                               <a className="nav-link active" href="/aboutUs">About Us</a>
+                        <a className="nav-link active" href="/category">Category- Категория</a>
                            </li>
                            <li className="nav-item">
-                               <a className="nav-link active" href="/courses">Сourses</a>
+                               <a className="nav-link active" href="/courses">Сourses - Курсове</a>
                            </li>
                            <li className="nav-item">
-                               <a className="nav-link active" href="/beautySalon">Beauty Salon</a>
+                               <a className="nav-link active" href="/beautySalon">Beauty Salon - Салон за красота</a>
                            </li>
                            <li className="nav-item">
-
-                               <a className="nav-link active" href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U"> <img src="img/event-accepted.png" width="20" height="20" alt="gbstyle.customer" /> 💫Запази час за посещение💫 </a></li>
-                       </ul>
+                               <a className="nav-link active" href="/aboutUs">About Us - За нас</a>
+                           </li>
+                           <li className="nav-item">
+                               <a className="nav-link active" href="/contacts">Contacts - Контакти</a>
+                           </li>
+                        </ul>
                        <span className="navbar-text nav-link active">
       
       
@@ -73,6 +73,8 @@ export default function Navbar() {
                        <a href="https://gbstyle.customer.fitsys.co/login?fbclid=IwAR30MlNCsrsaiEGZE6heIpc3mkRZ2q5GPxpS33eFXqoMLbeeRSmqayojO7U"
                            className="card-link mb-1"><img src="img/viber_image_2023.png" width="170" height="70" alt="..."
                                style={{ marginTop: "40px",   opacity: "0.8" }} /> </a>
+                                     <p class="mb-0"><a href="https://github.com/ZdravkaGoranova"
+                                        className="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Web design by Zdravka Goranova</a></p>
                    </div>
           </div>
         </div>
